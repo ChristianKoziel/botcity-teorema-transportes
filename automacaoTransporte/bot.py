@@ -1001,11 +1001,11 @@ class Bot(DesktopBot) :
                 bot.click()
                 ######## AQUI TEM QUE SALVAR O AQUIVO PARA DAI CLICAR PARA ADICIONAR O ESTADO #########
                 #VOU RODAR O PROCESSO MAIS OU MENOS ATÉ AQUI
-                # Searching for element 'btn_vSalvar'
+                # Searching for element 'btn_vSalvar '
                 if not bot.find("btn_vSalvar", matching=0.97, waiting_time=10000):
                     not_found("btn_vSalvar")
                 bot.click()
-                # Searching for element 'btn_AddEstado'
+                # Searching for element 'btn_AddEstado '
                 if not bot.find("btn_AddEstado", matching=0.97, waiting_time=10000):
                     not_found("btn_AddEstado")
                 bot.click_relative(9, 95)
@@ -1148,27 +1148,29 @@ class Bot(DesktopBot) :
                     not_found("btn_SalvarCadastroSocio")
                 bot.click()
                 
-                # Searching for element 'clica_Consulta'
+                # Searching for element 'clica_Consulta '
                 if not bot.find("clica_Consulta", matching=0.97, waiting_time=10000):
                     not_found("clica_Consulta")
                 bot.click()
                 
-                # Searching for element 'click_X'
+                # Searching for element 'click_X '
                 if not bot.find("click_X", matching=0.97, waiting_time=10000):
                     not_found("click_X")
                 bot.click()
                 
-                # Searching for element 'Click_Sim'
+                # Searching for element 'Click_Sim '
                 if not bot.find("Click_Sim", matching=0.97, waiting_time=10000):
                     not_found("Click_Sim")
                 bot.click()
                 
-                # Searching for element 'click_Cadastro '
-                if not bot.find("click_Cadastro", matching=0.97, waiting_time=10000):
-                    not_found("click_Cadastro")
-                bot.click()
+                # Searching for element 'click_CadastroSocio '
+                #Atualizado
+                if not bot.find("click_CadastroSocio", matching=0.97, waiting_time=10000):
+                    not_found("click_CadastroSocio")
+                bot.click_relative(-4, 213)
                 
-                # Searching for element 'click_CampoFuncao'
+                
+                # Searching for element 'click_CampoFuncao '
                 if not bot.find("click_CampoFuncao", matching=0.97, waiting_time=10000):
                     not_found("click_CampoFuncao")
                 bot.click_relative(37, 258)
@@ -1191,7 +1193,7 @@ class Bot(DesktopBot) :
                 self.tab()
                 self.type_keys_with_interval(50, "Parou aqui")
                 
-                # Searching for element 'click_Campo_Banco'
+                # Searching for element 'click_Campo_Banco '
                 if not bot.find("click_Campo_Banco", matching=0.97, waiting_time=10000):
                     not_found("click_Campo_Banco")
                 bot.click_relative(399, 216)
@@ -1199,17 +1201,17 @@ class Bot(DesktopBot) :
                 
                 
                 
-                # Searching for element 'click_Salvar'
+                # Searching for element 'click_Salvar '
                 if not bot.find("click_Salvar", matching=0.97, waiting_time=10000):
                     not_found("click_Salvar")
                 bot.click()
                 
-                # Searching for element 'Click_ABA_Documentos'
+                # Searching for element 'Click_ABA_Documentos '
                 if not bot.find("Click_ABA_Documentos", matching=0.97, waiting_time=10000):
                     not_found("Click_ABA_Documentos")
                 bot.click()
                 
-                # Searching for element 'incluir_Documentos'
+                # Searching for element 'incluir_Documentos '
                 if not bot.find("incluir_Documentos", matching=0.97, waiting_time=10000):
                     not_found("incluir_Documentos")
                 bot.click_relative(10, -15)
@@ -1228,27 +1230,27 @@ class Bot(DesktopBot) :
                 self.tab()
                 self.type_keys_with_interval(50, "teste12!")
 
-                # Searching for element 'salvar_Documento'
+                # Searching for element 'salvar_Documento '
                 if not bot.find("salvar_Documento", matching=0.97, waiting_time=10000):
                     not_found("salvar_Documento")
                 bot.click()
 
                 
-                # Searching for element 'click_abOp'
+                # Searching for element 'click_abOp '
                 if not bot.find("click_abOp", matching=0.97, waiting_time=10000):
                     not_found("click_abOp")
                 bot.click()
-                # Searching for element 'sim_Click'
+                # Searching for element 'sim_Click '
                 if not bot.find("sim_Click", matching=0.97, waiting_time=10000):
                     not_found("sim_Click")
                 bot.click()
                 
-                # Searching for element 'click_aba_PessoasAutorizadas'
+                # Searching for element 'click_aba_PessoasAutorizadas '
                 if not bot.find("click_aba_PessoasAutorizadas", matching=0.97, waiting_time=10000):
                     not_found("click_aba_PessoasAutorizadas")
                 bot.click()
                 
-                # Searching for element 'incluir_PessoaAutorizada'
+                # Searching for element 'incluir_PessoaAutorizada '
                 if not bot.find("incluir_PessoaAutorizada", matching=0.97, waiting_time=10000):
                     not_found("incluir_PessoaAutorizada")
                 bot.click_relative(9, -18)
@@ -1259,24 +1261,24 @@ class Bot(DesktopBot) :
                 self.tab()
                 self.type_keys_with_interval(50, "teste12!")
                 
-                # Searching for element 'Salvar_InlcuirPessoaAutorizada'
+                # Searching for element 'Salvar_InlcuirPessoaAutorizada '
                 if not bot.find("Salvar_InlcuirPessoaAutorizada", matching=0.97, waiting_time=10000):
                     not_found("Salvar_InlcuirPessoaAutorizada")
                 bot.click()
-                # Searching for element 'Click_Consulta'
+                # Searching for element 'Click_Consulta '
                 if not bot.find("Click_Consulta", matching=0.97, waiting_time=10000):
                     not_found("Click_Consulta")
                 bot.click()
                 
-                # Searching for element 'Click_X'
+                # Searching for element 'Click_X '
                 if not bot.find("Click_X", matching=0.97, waiting_time=10000):
                     not_found("Click_X")
                 bot.click()
-                # Searching for element 'click_SIM'
+                # Searching for element 'click_SIM '
                 if not bot.find("click_SIM", matching=0.97, waiting_time=10000):
                     not_found("click_SIM")
                 bot.click()
-                # Searching for element 'CLICK_ABA_GNRE'
+                # Searching for element 'CLICK_ABA_GNRE '
                 if not bot.find("CLICK_ABA_GNRE", matching=0.97, waiting_time=10000):
                     not_found("CLICK_ABA_GNRE")
                 bot.click()                
@@ -2365,11 +2367,11 @@ class Bot(DesktopBot) :
                 bot.click()
                 ######## AQUI TEM QUE SALVAR O AQUIVO PARA DAI CLICAR PARA ADICIONAR O ESTADO #########
                 #VOU RODAR O PROCESSO MAIS OU MENOS ATÉ AQUI
-                # Searching for element 'btn_vSalvar'
+                # Searching for element 'btn_vSalvar '
                 if not bot.find("btn_vSalvar", matching=0.97, waiting_time=10000):
                     not_found("btn_vSalvar")
                 bot.click()
-                # Searching for element 'btn_AddEstado'
+                # Searching for element 'btn_AddEstado '
                 if not bot.find("btn_AddEstado", matching=0.97, waiting_time=10000):
                     not_found("btn_AddEstado")
                 bot.click_relative(9, 95)
@@ -2512,27 +2514,28 @@ class Bot(DesktopBot) :
                     not_found("btn_SalvarCadastroSocio")
                 bot.click()
                 
-                # Searching for element 'clica_Consulta'
+                # Searching for element 'clica_Consulta '
                 if not bot.find("clica_Consulta", matching=0.97, waiting_time=10000):
                     not_found("clica_Consulta")
                 bot.click()
                 
-                # Searching for element 'click_X'
+                # Searching for element 'click_X '
                 if not bot.find("click_X", matching=0.97, waiting_time=10000):
                     not_found("click_X")
                 bot.click()
                 
-                # Searching for element 'Click_Sim'
+                # Searching for element 'Click_Sim '
                 if not bot.find("Click_Sim", matching=0.97, waiting_time=10000):
                     not_found("Click_Sim")
                 bot.click()
                 
-                # Searching for element 'click_Cadastro '
-                if not bot.find("click_Cadastro", matching=0.97, waiting_time=10000):
-                    not_found("click_Cadastro")
-                bot.click()
+                # Searching for element 'click_CadastroSocio '
+                #Atualizado
+                if not bot.find("click_CadastroSocio", matching=0.97, waiting_time=10000):
+                    not_found("click_CadastroSocio")
+                bot.click_relative(-4, 213)
                 
-                # Searching for element 'click_CampoFuncao'
+                # Searching for element 'click_CampoFuncao '
                 if not bot.find("click_CampoFuncao", matching=0.97, waiting_time=10000):
                     not_found("click_CampoFuncao")
                 bot.click_relative(37, 258)
@@ -2555,7 +2558,7 @@ class Bot(DesktopBot) :
                 self.tab()
                 self.type_keys_with_interval(50, "Parou aqui")
                 
-                # Searching for element 'click_Campo_Banco'
+                # Searching for element 'click_Campo_Banco '
                 if not bot.find("click_Campo_Banco", matching=0.97, waiting_time=10000):
                     not_found("click_Campo_Banco")
                 bot.click_relative(399, 216)
@@ -2563,17 +2566,17 @@ class Bot(DesktopBot) :
                 
                 
                 
-                # Searching for element 'click_Salvar'
+                # Searching for element 'click_Salvar '
                 if not bot.find("click_Salvar", matching=0.97, waiting_time=10000):
                     not_found("click_Salvar")
                 bot.click()
                 
-                # Searching for element 'Click_ABA_Documentos'
+                # Searching for element 'Click_ABA_Documentos '
                 if not bot.find("Click_ABA_Documentos", matching=0.97, waiting_time=10000):
                     not_found("Click_ABA_Documentos")
                 bot.click()
                 
-                # Searching for element 'incluir_Documentos'
+                # Searching for element 'incluir_Documentos '
                 if not bot.find("incluir_Documentos", matching=0.97, waiting_time=10000):
                     not_found("incluir_Documentos")
                 bot.click_relative(10, -15)
@@ -2592,27 +2595,27 @@ class Bot(DesktopBot) :
                 self.tab()
                 self.type_keys_with_interval(50, "teste12!")
 
-                # Searching for element 'salvar_Documento'
+                # Searching for element 'salvar_Documento '
                 if not bot.find("salvar_Documento", matching=0.97, waiting_time=10000):
                     not_found("salvar_Documento")
                 bot.click()
 
                 
-                # Searching for element 'click_abOp'
+                # Searching for element 'click_abOp '
                 if not bot.find("click_abOp", matching=0.97, waiting_time=10000):
                     not_found("click_abOp")
                 bot.click()
-                # Searching for element 'sim_Click'
+                # Searching for element 'sim_Click '
                 if not bot.find("sim_Click", matching=0.97, waiting_time=10000):
                     not_found("sim_Click")
                 bot.click()
                 
-                # Searching for element 'click_aba_PessoasAutorizadas'
+                # Searching for element 'click_aba_PessoasAutorizadas '
                 if not bot.find("click_aba_PessoasAutorizadas", matching=0.97, waiting_time=10000):
                     not_found("click_aba_PessoasAutorizadas")
                 bot.click()
                 
-                # Searching for element 'incluir_PessoaAutorizada'
+                # Searching for element 'incluir_PessoaAutorizada '
                 if not bot.find("incluir_PessoaAutorizada", matching=0.97, waiting_time=10000):
                     not_found("incluir_PessoaAutorizada")
                 bot.click_relative(9, -18)
@@ -2623,24 +2626,24 @@ class Bot(DesktopBot) :
                 self.tab()
                 self.type_keys_with_interval(50, "teste12!")
                 
-                # Searching for element 'Salvar_InlcuirPessoaAutorizada'
+                # Searching for element 'Salvar_InlcuirPessoaAutorizada '
                 if not bot.find("Salvar_InlcuirPessoaAutorizada", matching=0.97, waiting_time=10000):
                     not_found("Salvar_InlcuirPessoaAutorizada")
                 bot.click()
-                # Searching for element 'Click_Consulta'
+                # Searching for element 'Click_Consulta '
                 if not bot.find("Click_Consulta", matching=0.97, waiting_time=10000):
                     not_found("Click_Consulta")
                 bot.click()
                 
-                # Searching for element 'Click_X'
+                # Searching for element 'Click_X '
                 if not bot.find("Click_X", matching=0.97, waiting_time=10000):
                     not_found("Click_X")
                 bot.click()
-                # Searching for element 'click_SIM'
+                # Searching for element 'click_SIM '
                 if not bot.find("click_SIM", matching=0.97, waiting_time=10000):
                     not_found("click_SIM")
                 bot.click()
-                # Searching for element 'CLICK_ABA_GNRE'
+                # Searching for element 'CLICK_ABA_GNRE '
                 if not bot.find("CLICK_ABA_GNRE", matching=0.97, waiting_time=10000):
                     not_found("CLICK_ABA_GNRE")
                 bot.click()                
