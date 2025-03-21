@@ -1380,11 +1380,8 @@ class Bot(DesktopBot) :
                     not_found("exluirNomeSocio")
                 bot.click_relative(-97, 214)
                 
-                # Searching for element 'Sim '
-                if not bot.find("Sim", matching=0.97, waiting_time=10000):
-                    not_found("Sim")
-                bot.click()
-                
+                self.enter()
+
                 # Searching for element 'subABA_Documentos '
                 if not bot.find("subABA_Documentos", matching=0.97, waiting_time=10000):
                     not_found("subABA_Documentos")
@@ -1401,9 +1398,11 @@ class Bot(DesktopBot) :
                 bot.click_relative(-97, 215)
                 
                 # Searching for element 'sim '
-                if not bot.find("sim", matching=0.97, waiting_time=10000):
-                    not_found("sim")
-                bot.click()
+                # if not bot.find("sim", matching=0.97, waiting_time=10000):
+                #     not_found("sim")
+                # bot.click()
+
+                self.enter()
                 
                 # Searching for element 'ExcluirEmpresa '
                 if not bot.find("ExcluirEmpresa", matching=0.97, waiting_time=10000):
@@ -2689,17 +2688,107 @@ class Bot(DesktopBot) :
                     not_found("retornar")
                 bot.click_relative(-83, 68)
                 
-                                
+                # Searching for element 'cadastro '
+                if not bot.find("cadastro", matching=0.97, waiting_time=10000):
+                    not_found("cadastro")
+                bot.click()
+                
+                # Searching for element 'Empresas '
+                if not bot.find("Empresas", matching=0.97, waiting_time=10000):
+                    not_found("Empresas")
+                bot.click()                                
+                
+                # Searching for element 'GrupoDeEmpresas '
+                if not bot.find("GrupoDeEmpresas", matching=0.97, waiting_time=10000):
+                    not_found("GrupoDeEmpresas")
+                bot.click()
+                
+                # Searching for element 'Incluir '
+                if not bot.find("Incluir", matching=0.97, waiting_time=10000):
+                    not_found("Incluir")
+                bot.click()
+                
+                self.type_keys_with_interval(50, "testeGrupoEmrpesa12!")
+                
+                # Searching for element 'SalvarV '
+                if not bot.find("SalvarV", matching=0.97, waiting_time=10000):
+                    not_found("SalvarV")
+                bot.click()
+                
+                # Searching for element 'Retornar '
+                if not bot.find("Retornar", matching=0.97, waiting_time=10000):
+                    not_found("Retornar")
+                bot.click_relative(-79, 71)
+                
+                # Searching for element 'Localizar '
+                if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                    not_found("Localizar")
+                bot.click()
+                
+                # Searching for element 'selecionatesteGE '
+                if not bot.find("selecionatesteGE", matching=0.97, waiting_time=10000):
+                    not_found("selecionatesteGE")
+                bot.click()
+                
+                # Searching for element 'editar '
+                if not bot.find("editar", matching=0.97, waiting_time=10000):
+                    not_found("editar")
+                bot.click()
+                
+                # Searching for element 'exclui '
+                if not bot.find("exclui", matching=0.97, waiting_time=10000):
+                    not_found("exclui")
+                bot.click()
+                
+                # Searching for element 'sim '
+                if not bot.find("sim", matching=0.97, waiting_time=10000):
+                    not_found("sim")
+                bot.click()
+                
+                # Searching for element 'retorna '
+                if not bot.find("retorna", matching=0.97, waiting_time=10000):
+                    not_found("retorna")
+                bot.click_relative(-82, 68)
+                # Searching for element 'localizar '
+                if not bot.find("localizar", matching=0.97, waiting_time=10000):
+                    not_found("localizar")
+                bot.click()
+                
+                # Searching for element 'Incluir '
+                if not bot.find("Incluir", matching=0.97, waiting_time=10000):
+                    not_found("Incluir")
+                bot.click()
+                
+                self.type_keys_with_interval(50, "testeGrupoEmrpesa12!")
+                
+                # Searching for element 'SalvarV '
+                if not bot.find("SalvarV", matching=0.97, waiting_time=10000):
+                    not_found("SalvarV")
+                bot.click()
+                
+                # Searching for element 'Retornar '
+                if not bot.find("Retornar", matching=0.97, waiting_time=10000):
+                    not_found("Retornar")
+                bot.click_relative(-79, 71)
+                
+                # Searching for element 'Localizar '
+                if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                    not_found("Localizar")
+                bot.click()
+                
+                # Searching for element 'retornar '
+                if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                    not_found("retornar")
+                bot.click_relative(-83, 71)
                 
                 
                 
                 
                 
+        
+    
                 
-                
-                
-
-
+    
 
 
 
@@ -2715,6 +2804,14 @@ if __name__ == '__main__' :
 
 
 
+
+
+
+
+# Searching for element 'selecionatesteGE '
+if not bot.find("selecionatesteGE", matching=0.97, waiting_time=10000):
+    not_found("selecionatesteGE")
+bot.click()
 
 
 
