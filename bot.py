@@ -3934,9 +3934,9 @@ class Bot(DesktopBot) :
                     not_found("fecharTelaCadastroCTEconfiguracao")
                 bot.click_relative(616, -37)
 
-                #########################################
-                ####### CADASTROS DE PARAMETROS FISCAIS #############
-                #########################################
+                ########################################
+                ###### CADASTROS DE PARAMETROS FISCAIS #############
+                ########################################
 
                 # Searching for element 'cadastros '
                 if not bot.find("cadastros", matching=0.97, waiting_time=10000):
@@ -4065,7 +4065,363 @@ class Bot(DesktopBot) :
                     not_found("btn_cadastro_incluir")
                 bot.click()
 
-                self.type_keys_with_interval
+                self.type_keys_with_interval(50, "teste12!")
+                self.tab()
+                self.type_keys_with_interval(50, "01")
+                self.tab()
+
+                # Searching for element 'clicaparaselecionarocampodatelaCadastroRegioes '
+                if not bot.find("clicaparaselecionarocampodatelaCadastroRegioes", matching=0.97, waiting_time=10000):
+                    not_found("clicaparaselecionarocampodatelaCadastroRegioes")
+                bot.click_relative(4, 30)
+                self.type_down()
+                self.type_down()
+
+                # Searching for element 'clicaparaselecionarocampodatelaCadastroRegioes22 '
+                if not bot.find("clicaparaselecionarocampodatelaCadastroRegioes22", matching=0.97, waiting_time=10000):
+                    not_found("clicaparaselecionarocampodatelaCadastroRegioes22")
+                bot.click_relative(5, 31)
+                self.type_down()
+                self.type_down()
+
+                # Searching for element 'btn_Salvar_form'
+                if not bot.find("btn_Salvar_form", matching=0.97, waiting_time=10000):
+                    not_found("btn_Salvar_form")
+                bot.click()
+
+                # Searching for element 'retornar '
+                if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                    not_found("retornar")
+                bot.click_relative(-83, 68)
+
+                # Searching for element 'Localizar '
+                if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                    not_found("Localizar")
+                bot.click()
+
+                # Searching for element 'btn_cadastro_incluir'
+                if not bot.find("btn_cadastro_incluir", matching=0.97, waiting_time=10000):
+                    not_found("btn_cadastro_incluir")
+                bot.click()
+
+                self.type_keys_with_interval(50, "teste123!")
+                self.tab()
+                self.type_keys_with_interval(50, "01")
+                self.tab()
+
+                # Searching for element 'clicaparaselecionarocampodatelaCadastroRegioes '
+                if not bot.find("clicaparaselecionarocampodatelaCadastroRegioes", matching=0.97, waiting_time=10000):
+                    not_found("clicaparaselecionarocampodatelaCadastroRegioes")
+                bot.click_relative(4, 30)
+                self.type_down()
+                self.type_down()
+
+                # Searching for element 'clicaparaselecionarocampodatelaCadastroRegioes22 '
+                if not bot.find("clicaparaselecionarocampodatelaCadastroRegioes22", matching=0.97, waiting_time=10000):
+                    not_found("clicaparaselecionarocampodatelaCadastroRegioes22")
+                bot.click_relative(5, 31)
+                self.type_down()
+                self.type_down()
+
+                # Searching for element 'btn_Salvar_form'
+                if not bot.find("btn_Salvar_form", matching=0.97, waiting_time=10000):
+                    not_found("btn_Salvar_form")
+                bot.click()
+                
+                # Searching for element 'Excluir '
+                if not bot.find("Excluir", matching=0.97, waiting_time=10000):
+                    not_found("Excluir")
+                bot.click()
+                
+                # Searching for element 'sIMV '
+                if not bot.find("sIMV", matching=0.97, waiting_time=10000):
+                    not_found("sIMV")
+                bot.click()
+
+                # Searching for element 'retornar '
+                if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                    not_found("retornar")
+                bot.click_relative(-83, 68)
+
+                # Searching for element 'retornar '
+                if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                    not_found("retornar")
+                bot.click_relative(-83, 68)
+
+                #### Estados ###
+                # Searching for element 'cadastros '
+                if not bot.find("cadastros", matching=0.97, waiting_time=10000):
+                    not_found("cadastros")
+                bot.click()
+
+                # Searching for element 'ParametrosFiscais '
+                if not bot.find("ParametrosFiscais", matching=0.97, waiting_time=10000):
+                    not_found("ParametrosFiscais")
+                bot.click()
+                
+                # Searching for element 'RegionalizacaoReutilizar '
+                if not bot.find("RegionalizacaoReutilizar", matching=0.97, waiting_time=10000):
+                    not_found("RegionalizacaoReutilizar")
+                bot.click()
+
+                # Searching for element 'RegionalizacaoReutilizar '
+                if not bot.find("RegionalizacaoReutilizar", matching=0.97, waiting_time=10000):
+                    not_found("RegionalizacaoReutilizar")
+                bot.click()
+
+                # Searching for element 'EstadosSelecionaparacadastrar '
+                if not bot.find("EstadosSelecionaparacadastrar", matching=0.97, waiting_time=10000):
+                    not_found("EstadosSelecionaparacadastrar")
+                bot.click()
+
+                # Searching for element 'Localizar '
+                if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                    not_found("Localizar")
+                bot.click()
+
+                # Searching for element 'btn_cadastro_incluir'
+                if not bot.find("btn_cadastro_incluir", matching=0.97, waiting_time=10000):
+                    not_found("btn_cadastro_incluir")
+                bot.click()
+
+                self.type_keys_with_interval(50, "teste12!")
+                self.tab()
+                self.type_down()
+                self.type_down()
+                self.type_down()
+                self.tab()
+                self.type_keys_with_interval(50, "01")
+                self.tab()
+                self.tab()
+                self.type_down()
+                self.type_down()
+                self.type_down()
+
+                # Searching for element 'btn_Salvar_form'
+                if not bot.find("btn_Salvar_form", matching=0.97, waiting_time=10000):
+                    not_found("btn_Salvar_form")
+                bot.click()
+
+                # Searching for element 'retornar '
+                if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                    not_found("retornar")
+                bot.click_relative(-83, 68)
+
+                # Searching for element 'Localizar '
+                if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                    not_found("Localizar")
+                bot.click()
+
+                # Searching for element 'btn_cadastro_incluir'
+                if not bot.find("btn_cadastro_incluir", matching=0.97, waiting_time=10000):
+                    not_found("btn_cadastro_incluir")
+                bot.click()
+
+                self.type_keys_with_interval(50, "teste123!")
+                self.tab()
+                self.type_down()
+                self.type_down()
+                self.type_down()
+                self.tab()
+                self.type_keys_with_interval(50, "01")
+                self.tab()
+                self.tab()
+                self.type_down()
+                self.type_down()
+                self.type_down()
+
+                # Searching for element 'btn_Salvar_form'
+                if not bot.find("btn_Salvar_form", matching=0.97, waiting_time=10000):
+                    not_found("btn_Salvar_form")
+                bot.click()
+
+                # Searching for element 'Excluir '
+                if not bot.find("Excluir", matching=0.97, waiting_time=10000):
+                    not_found("Excluir")
+                bot.click()
+                
+                # Searching for element 'sIMV '
+                if not bot.find("sIMV", matching=0.97, waiting_time=10000):
+                    not_found("sIMV")
+                bot.click()
+
+                # Searching for element 'retornar '
+                if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                    not_found("retornar")
+                bot.click_relative(-83, 68)
+
+                # Searching for element 'retornar '
+                if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                    not_found("retornar")
+                bot.click_relative(-83, 68)
+
+                # Searching for element 'cadastros '
+                if not bot.find("cadastros", matching=0.97, waiting_time=10000):
+                    not_found("cadastros")
+                bot.click()
+
+                # Searching for element 'ParametrosFiscais '
+                if not bot.find("ParametrosFiscais", matching=0.97, waiting_time=10000):
+                    not_found("ParametrosFiscais")
+                bot.click()
+                
+                # Searching for element 'RegionalizacaoReutilizar '
+                if not bot.find("RegionalizacaoReutilizar", matching=0.97, waiting_time=10000):
+                    not_found("RegionalizacaoReutilizar")
+                bot.click()
+
+                # Searching for element 'RegionalizacaoReutilizar '
+                if not bot.find("RegionalizacaoReutilizar", matching=0.97, waiting_time=10000):
+                    not_found("RegionalizacaoReutilizar")
+                bot.click()
+
+                # Searching for element 'cadastroMunicipiosparametrosfiscaisparairparatelacadastro '
+                if not bot.find("cadastroMunicipiosparametrosfiscaisparairparatelacadastro", matching=0.97, waiting_time=10000):
+                    not_found("cadastroMunicipiosparametrosfiscaisparairparatelacadastro")
+                bot.click()
+
+                # Searching for element 'Localizar '
+                if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                    not_found("Localizar")
+                bot.click()
+
+                # Searching for element 'btn_cadastro_incluir'
+                if not bot.find("btn_cadastro_incluir", matching=0.97, waiting_time=10000):
+                    not_found("btn_cadastro_incluir")
+                bot.click()
+
+                self.type_keys_with_interval(50, "teste12!")
+                self.tab()
+                self.type_down()
+                self.type_up()
+                self.tab()
+                self.tab()
+                self.type_keys_with_interval(50, "01")
+                self.tab()
+                self.tab()
+                self.type_keys_with_interval(50, "123")
+                self.tab()
+                self.type_keys_with_interval(50, "123")
+                self.tab()
+                self.type_keys_with_interval(50, "123")
+                self.tab()
+                self.type_keys_with_interval(50, "123")
+                self.tab()
+                self.type_keys_with_interval(50, "123")
+                self.tab()
+                self.type_keys_with_interval(50, "123")
+                self.tab()
+                self.type_keys_with_interval(50, "1")
+
+                # Searching for element 'btn_Salvar_form'
+                if not bot.find("btn_Salvar_form", matching=0.97, waiting_time=10000):
+                    not_found("btn_Salvar_form")
+                bot.click()
+
+                # Searching for element 'retornar '
+                if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                    not_found("retornar")
+                bot.click_relative(-83, 68)
+
+                # Searching for element 'Localizar '
+                if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                    not_found("Localizar")
+                bot.click()
+
+                # Searching for element 'btn_cadastro_incluir'
+                if not bot.find("btn_cadastro_incluir", matching=0.97, waiting_time=10000):
+                    not_found("btn_cadastro_incluir")
+                bot.click()
+
+                self.type_keys_with_interval(50, "teste123!")
+                self.tab()
+                self.type_down()
+                self.type_up()
+                self.tab()
+                self.tab()
+                self.type_keys_with_interval(50, "01")
+                self.tab()
+                self.tab()
+                self.type_keys_with_interval(50, "123")
+                self.tab()
+                self.type_keys_with_interval(50, "123")
+                self.tab()
+                self.type_keys_with_interval(50, "123")
+                self.tab()
+                self.type_keys_with_interval(50, "123")
+                self.tab()
+                self.type_keys_with_interval(50, "123")
+                self.tab()
+                self.type_keys_with_interval(50, "123")
+                self.tab()
+                self.type_keys_with_interval(50, "1")
+
+                # Searching for element 'btn_Salvar_form'
+                if not bot.find("btn_Salvar_form", matching=0.97, waiting_time=10000):
+                    not_found("btn_Salvar_form")
+                bot.click()
+
+                # Searching for element 'subabacadastroFeriadosMunicipais '
+                if not bot.find("subabacadastroFeriadosMunicipais", matching=0.97, waiting_time=10000):
+                    not_found("subabacadastroFeriadosMunicipais")
+                bot.click()
+
+                # Searching for element 'adicionar+botaopequenoverde '
+                if not bot.find("adicionar+botaopequenoverde", matching=0.97, waiting_time=10000):
+                    not_found("adicionar+botaopequenoverde")
+                bot.click()
+
+                self.type_down()
+                self.type_down()
+                self.tab()
+                self.type_down()
+                self.type_down()
+                self.tab()
+                self.type_keys_with_interval(50, "Teste Descrição feriado")
+
+                # Searching for element 'checkverdepequenosalvardescricaocadastroferiadotela '
+                if not bot.find("checkverdepequenosalvardescricaocadastroferiadotela", matching=0.97, waiting_time=10000):
+                    not_found("checkverdepequenosalvardescricaocadastroferiadotela")
+                bot.click_relative(8, -13)
+
+                # Searching for element 'lixeirapequenaExluirferiado '
+                if not bot.find("lixeirapequenaExluirferiado", matching=0.97, waiting_time=10000):
+                    not_found("lixeirapequenaExluirferiado")
+                bot.click_relative(7, -36)
+                self.enter()
+
+                # Searching for element 'Excluir '
+                if not bot.find("Excluir", matching=0.97, waiting_time=10000):
+                    not_found("Excluir")
+                bot.click()
+                
+                # Searching for element 'sIMV '
+                if not bot.find("sIMV", matching=0.97, waiting_time=10000):
+                    not_found("sIMV")
+                bot.click()
+
+                # Searching for element 'retornar '
+                if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                    not_found("retornar")
+                bot.click_relative(-83, 68)
+
+                # Searching for element 'retornar '
+                if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                    not_found("retornar")
+                bot.click_relative(-83, 68)
+
+
+                
+
+
+
+
+
+
+
+
+
+                
 
 
 
