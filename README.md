@@ -1,14 +1,12 @@
 # Automacao do Sistema Gestão de Transportes da Teorema Sistemas com Python e BotCity
 
 ## Descricao do Projeto
-Este projeto automatiza o sistema **Gestão de Transportes da Teorema Sistemas** utilizando **Python** e **BotCity**, permitindo a execução de tarefas repetitivas de forma eficiente e sem necessidade de intervenção manual.
+Este projeto automatiza o sistema **Gestão de Transportes** utilizando **Python** e **BotCity**, permitindo a execução de tarefas repetitivas de forma eficiente e sem necessidade de intervenção manual.
 
 ## Tecnologias Utilizadas
 
 - **Python**: Linguagem principal utilizada para desenvolvimento.
 - **BotCity**: Framework de automação para aplicações desktop.
-- **PyAutoGUI** (opcional): Pode ser utilizado para interações adicionais com a interface gráfica.
-- **Pandas** (opcional): Para manipulação de dados, caso necessário.
 
 ## Requisitos
 Antes de rodar a automação, instale as dependências necessárias. Requisitos incluem:
@@ -18,7 +16,7 @@ Antes de rodar a automação, instale as dependências necessárias. Requisitos 
 
 Para instalar as bibliotecas necessárias, execute:
 ```sh
-pip install botcity-framework-core pandas pyautogui
+pip install botcity-framework-core
 ```
 
 ## Guia para Rodar a Automacao do Gestão de Transportes da Teorema Sistemas
@@ -52,21 +50,27 @@ Antes de rodar a automação, siga os passos abaixo:
    ```
 2. Acesse o diretório do projeto:
    ```sh
-   cd botcity-teorema-transportes
+   cd automacaoTransporte
    ```
 3. Execute o script principal:
    ```sh
-   python main.py
+   python bot.py
    ```
 
 ## Estrutura do Projeto
 ```
-📂 botcity-teorema-transportes
-├── main.py  # Arquivo principal da automacao
-├── config.json  # Arquivo de configuracao (opcional)
-├── requirements.txt  # Lista de dependencias
-├── README.md  # Documentacao do projeto
-└── utils/  # Funcoes auxiliares
+📂 automacaoTransporte
+├── automacaoTransporte.botproj  # Arquivo de projeto do BotCity
+├── automacaoTransporte.zip  # Arquivo compactado da automação
+├── bot copy.py  # Cópia auxiliar do script principal
+├── bot.py  # Arquivo principal da automação
+├── build.bat  # Script de build para Windows
+├── build.ps1  # Script de build para PowerShell
+├── build.sh  # Script de build para Linux
+├── README.md  # Documentação do projeto
+├── requirements.txt  # Lista de dependências
+├── resources/  # Diretório de recursos
+└── teste.py  # Arquivo de testes
 ```
 
 ## Possiveis Erros e Solucoes
