@@ -40,7 +40,7 @@ Antes de rodar a automação, siga os passos abaixo:
    - Clique em **Salvar** e feche o sistema.
 
 3. **Rodando a Automacao**
-   - Abra o sistema **Gestão de Transportes da Teorema Sistemas** e deixe-o na tela inicial.
+   - Abra o sistema **Gestão de Transportes** e deixe-o na tela inicial.
    - Agora a automação pode ser executada sem erros até a tela **Parâmetros da Empresa - F9**.
 
 ## Como Executar
