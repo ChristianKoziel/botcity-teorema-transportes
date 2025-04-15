@@ -4410,35 +4410,1161 @@ class Bot(DesktopBot) :
                     not_found("retornar")
                 bot.click_relative(-83, 68)
 
+                # Searching for element 'cadastros '
+                if not bot.find("cadastros", matching=0.97, waiting_time=10000):
+                    not_found("cadastros")
+                bot.click()
+
+                # Searching for element 'ParametrosFiscais '
+                if not bot.find("ParametrosFiscais", matching=0.97, waiting_time=10000):
+                    not_found("ParametrosFiscais")
+                bot.click()
+
+                # Searching for element 'clicapentrarTelaGrupoFiscaldeItens '
+                if not bot.find("clicapentrarTelaGrupoFiscaldeItens", matching=0.97, waiting_time=10000):
+                    not_found("clicapentrarTelaGrupoFiscaldeItens")
+                bot.click()
+
+                # Searching for element 'Localizar '
+                if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                    not_found("Localizar")
+                bot.click()
+
+                # Searching for element 'btn_cadastro_incluir'
+                if not bot.find("btn_cadastro_incluir", matching=0.97, waiting_time=10000):
+                    not_found("btn_cadastro_incluir")
+                bot.click()
+
+                self.type_keys_with_interval(50, "Teste12!")
+                self.tab()
+                self.space()
+                self.space()
+                self.tab()
+                self.type_keys_with_interval(50, "123")
+
+                # Searching for element 'btn_Salvar_form'
+                if not bot.find("btn_Salvar_form", matching=0.97, waiting_time=10000):
+                    not_found("btn_Salvar_form")
+                bot.click()
+
+                # Searching for element 'retornar '
+                if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                    not_found("retornar")
+                bot.click_relative(-83, 68)
+
+                # Searching for element 'Localizar '
+                if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                    not_found("Localizar")
+                bot.click()
+
+                # Searching for element 'btn_cadastro_incluir'
+                if not bot.find("btn_cadastro_incluir", matching=0.97, waiting_time=10000):
+                    not_found("btn_cadastro_incluir")
+                bot.click()
+
+                self.type_keys_with_interval(50, "Teste123!")
+                self.tab()
+                self.space()
+                self.space()
+                self.tab()
+                self.type_keys_with_interval(50, "123")
+
+                # Searching for element 'btn_Salvar_form'
+                if not bot.find("btn_Salvar_form", matching=0.97, waiting_time=10000):
+                    not_found("btn_Salvar_form")
+                bot.click()
+
+                # Searching for element 'Excluir '
+                if not bot.find("Excluir", matching=0.97, waiting_time=10000):
+                    not_found("Excluir")
+                bot.click()
+                
+                # Searching for element 'sIMV '
+                if not bot.find("sIMV", matching=0.97, waiting_time=10000):
+                    not_found("sIMV")
+                bot.click()
+
+                # Searching for element 'retornar '
+                if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                    not_found("retornar")
+                bot.click_relative(-83, 68)
+
+                # Searching for element 'retornar '
+                if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                    not_found("retornar")
+                bot.click_relative(-83, 68)
+
+                ############### Cadastro Parametros Fiscais Códigos Fiscais (CFOP) #############
+
+                #Searching for element 'cadastros '
+                if not bot.find("cadastros", matching=0.97, waiting_time=10000):
+                    not_found("cadastros")
+                bot.click()
+
+                # Searching for element 'ParametrosFiscais '
+                if not bot.find("ParametrosFiscais", matching=0.97, waiting_time=10000):
+                    not_found("ParametrosFiscais")
+                bot.click()
+
+                # Searching for element 'clickpentrartelaCadCodigodeOperacoesdeParametrosFiscais '
+                if not bot.find("clickpentrartelaCadCodigodeOperacoesdeParametrosFiscais", matching=0.97, waiting_time=10000):
+                    not_found("clickpentrartelaCadCodigodeOperacoesdeParametrosFiscais")
+                bot.click()
+
+                # Searching for element 'Localizar '
+                if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                    not_found("Localizar")
+                bot.click()
+
+                # Searching for element 'btn_cadastro_incluir'
+                if not bot.find("btn_cadastro_incluir", matching=0.97, waiting_time=10000):
+                    not_found("btn_cadastro_incluir")
+                bot.click()
+
+                self.wait(1500)
+
+                # Searching for element 'btn_nao'
+                if not bot.find("btn_nao", matching=0.97, waiting_time=10000):
+                    not_found("btn_nao")
+                bot.click()
+
+                self.type_keys_with_interval(50, "teste Cadastro de código de operação")
+                
+                # Searching for element 'selectCampOperacaoEstoqueopn '
+                if not bot.find("selectCampOperacaoEstoqueopn", matching=0.97, waiting_time=10000):
+                    not_found("selectCampOperacaoEstoqueopn")
+                bot.click_relative(32, 43)
+               
+
+                x = 0
+                while x < 34:
+                    self.type_down() 
+                    self.type_down() 
+                    self.type_down() 
+                    self.type_up()                    
+                    self.tab()
+                    x = x + 1
+                self.tab()
+                self.space()
+                self.tab()
+                self.space()
+                self.tab()
+                self.type_keys_with_interval(50, "123")
+                self.tab()
+                x = 0
+                while x < 28:
+                    self.space()                    
+                    self.tab()
+                    x = x + 1
+                # Searching for element 'incluirnumerosCadcodO '
+                if not bot.find("incluirnumerosCadcodO", matching=0.97, waiting_time=10000):
+                    not_found("incluirnumerosCadcodO")
+                bot.click_relative(17, 27)
+
+                x = 0
+                while x < 6:
+                    self.type_keys_with_interval(100, "123")                   
+                    self.tab()
+                    self.tab()
+                    x = x + 1    
+
+                # Searching for element 'botaoqueaoclicarSalvaOperacaotlcadcodop '
+                if not bot.find("botaoqueaoclicarSalvaOperacaotlcadcodop", matching=0.97, waiting_time=10000):
+                    not_found("botaoqueaoclicarSalvaOperacaotlcadcodop")
+                bot.click()
+
+                # Searching for element 'subAbaDadosAdicionaistelaCadcopOp '
+                if not bot.find("subAbaDadosAdicionaistelaCadcopOp", matching=0.97, waiting_time=10000):
+                    not_found("subAbaDadosAdicionaistelaCadcopOp")
+                bot.click()
+
+                # Searching for element 'subabaLPCFOPPadraodoMovimento '
+                if not bot.find("subabaLPCFOPPadraodoMovimento", matching=0.97, waiting_time=10000):
+                    not_found("subabaLPCFOPPadraodoMovimento")
+                bot.click_relative(61, 25)
+
+                # Searching for element 'btn_localizar'
+                if not bot.find("btn_localizar", matching=0.97, waiting_time=10000):
+                    not_found("btn_localizar")
+                bot.click()
+                self.wait(1000)
+                # Searching for element 'btn_selecionar'
+                if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
+                    not_found("btn_selecionar")
+                bot.click()
+
+                # Searching for element 'subabaLPCadcodOpTabeladePreco '
+                if not bot.find("subabaLPCadcodOpTabeladePreco", matching=0.97, waiting_time=10000):
+                    not_found("subabaLPCadcodOpTabeladePreco")
+                bot.click_relative(64, 30)
+
+                # Searching for element 'btn_localizar'
+                if not bot.find("btn_localizar", matching=0.97, waiting_time=10000):
+                    not_found("btn_localizar")
+                bot.click()
+                self.wait(1000)
+                # Searching for element 'btn_selecionar'
+                if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
+                    not_found("btn_selecionar")
+                bot.click()
+                self.backspace()
+
+                # Searching for element 'subabaLPCadcodOpTabeladePreco '
+                if not bot.find("subabaLPCadcodOpTabeladePreco", matching=0.97, waiting_time=10000):
+                    not_found("subabaLPCadcodOpTabeladePreco")
+                bot.click_relative(64, 30)
+
+                # Searching for element 'btn_localizar'
+                if not bot.find("btn_localizar", matching=0.97, waiting_time=10000):
+                    not_found("btn_localizar")
+                bot.click()
+                self.wait(1000)
+                # Searching for element 'btn_selecionar'
+                if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
+                    not_found("btn_selecionar")
+                bot.click()
+                self.backspace()
+
+                # Searching for element 'addTextoObstestestest '
+                if not bot.find("addTextoObstestestest", matching=0.97, waiting_time=10000):
+                    not_found("addTextoObstestestest")
+                bot.click_relative(64, 139)
+                self.type_keys_with_interval(50, "Teste12!")
+                self.tab()
+                self.tab()
+
+                # Searching for element 'subabaObservacoestelaCadCopOpteste '
+                if not bot.find("subabaObservacoestelaCadCopOpteste", matching=0.97, waiting_time=10000):
+                    not_found("subabaObservacoestelaCadCopOpteste")
+                bot.click()
+
+                self.type_keys_with_interval(50, "Teste 12 ! teste12!")
+                self.wait(2000)
+
+                # Searching for element 'btn_Salvar_form'
+                if not bot.find("btn_Salvar_form", matching=0.97, waiting_time=10000):
+                    not_found("btn_Salvar_form")
+                bot.click()
+
+                # Searching for element 'retornar '
+                if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                    not_found("retornar")
+                bot.click_relative(-83, 68)
+
+                # Searching for element 'retornar '
+                if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                    not_found("retornar")
+                bot.click_relative(-83, 68)
+
+                # Searching for element 'cadastros '
+                if not bot.find("cadastros", matching=0.97, waiting_time=10000):
+                    not_found("cadastros")
+                bot.click()
+
+                # Searching for element 'ParametrosFiscais '
+                if not bot.find("ParametrosFiscais", matching=0.97, waiting_time=10000):
+                    not_found("ParametrosFiscais")
+                bot.click()
+
+                # Searching for element 'clickparaCadastroCodigosficaisCFOP '
+                if not bot.find("clickparaCadastroCodigosficaisCFOP", matching=0.97, waiting_time=10000):
+                    not_found("clickparaCadastroCodigosficaisCFOP")
+                bot.click()
+
+                # Searching for element 'Localizar '
+                if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                    not_found("Localizar")
+                bot.click()
+
+                # Searching for element 'btn_cadastro_incluir'
+                if not bot.find("btn_cadastro_incluir", matching=0.97, waiting_time=10000):
+                    not_found("btn_cadastro_incluir")
+                bot.click()
+
+                self.type_keys_with_interval(50, "1234")
+                self.tab()
+                self.type_keys_with_interval(50, "teste12!")
+                self.tab()
+                self.type_keys_with_interval(50, "01")
+                self.tab()
+                self.tab()
+                self.type_keys_with_interval(50, "12")
+                self.tab()
+                self.type_keys_with_interval(50, "12")
+                self.tab() 
+                self.space()
+                self.tab() 
+                self.space()
+                self.tab() 
+                self.space()
+                self.tab() 
+                self.space()
+                self.tab() 
+                self.space()
+                self.tab() 
+                self.type_keys_with_interval(50, "12")
+                self.tab() 
+                self.space()
+                self.tab() 
+                self.space()
+                self.tab() 
+                self.space()
+                self.tab() 
+                self.type_right()
+                self.tab() 
+                self.type_right()
+                self.type_right()
+
+                # Searching for element 'btn_Salvar_form'
+                if not bot.find("btn_Salvar_form", matching=0.97, waiting_time=10000):
+                    not_found("btn_Salvar_form")
+                bot.click()
+
+                ######
+                ###### Temporario
+                # ######
+                # # Searching for element 'tempCancelaropparavoltar '
+                # if not bot.find("tempCancelaropparavoltar", matching=0.97, waiting_time=10000):
+                #     not_found("tempCancelaropparavoltar")
+                # bot.click()
+                # # Searching for element 'SimTempoParaVoltarOp '
+                # if not bot.find("SimTempoParaVoltarOp", matching=0.97, waiting_time=10000):
+                #     not_found("SimTempoParaVoltarOp")
+                # bot.click()
+                # ######
+                # ######
+                ######
+
+                # Searching for element 'retornar '
+                if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                    not_found("retornar")
+                bot.click_relative(-83, 68)
+
+                # Searching for element 'retornar '
+                if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                    not_found("retornar")
+                bot.click_relative(-83, 68)
+
+                ######### Cadastro Parametros fiscais Decretos e Observações #####
+
+                # Searching for element 'cadastros '
+                if not bot.find("cadastros", matching=0.97, waiting_time=10000):
+                    not_found("cadastros")
+                bot.click()
+
+                # Searching for element 'ParametrosFiscais '
+                if not bot.find("ParametrosFiscais", matching=0.97, waiting_time=10000):
+                    not_found("ParametrosFiscais")
+                bot.click()
+                # Searching for element 'entratelaCadDecretoseObservacoes '
+                if not bot.find("entratelaCadDecretoseObservacoes", matching=0.97, waiting_time=10000):
+                    not_found("entratelaCadDecretoseObservacoes")
+                bot.click()
+                # Searching for element 'Localizar '
+                if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                    not_found("Localizar")
+                bot.click()
+
+                # Searching for element 'btn_cadastro_incluir'
+                if not bot.find("btn_cadastro_incluir", matching=0.97, waiting_time=10000):
+                    not_found("btn_cadastro_incluir")
+                bot.click()
+
+                self.type_keys_with_interval(50, "Teste12!")
+                # Searching for element 'clickdetretocamptest '
+                if not bot.find("clickdetretocamptest", matching=0.97, waiting_time=10000):
+                    not_found("clickdetretocamptest")
+                bot.click()
+                self.type_right()
+                self.type_right()
+                self.type_right()
+                self.type_left()
+                self.type_left()
+                self.type_left()
+                # Searching for element 'btn_Salvar_form'
+                if not bot.find("btn_Salvar_form", matching=0.97, waiting_time=10000):
+                    not_found("btn_Salvar_form")
+                bot.click()
+                # Searching for element 'retornar '
+                if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                    not_found("retornar")
+                bot.click_relative(-83, 68)
+                # Searching for element 'Localizar '
+                if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                    not_found("Localizar")
+                bot.click()
+                # Searching for element 'retornar '
+                if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                    not_found("retornar")
+                bot.click_relative(-83, 68)
+
+                ###### Cadastro Parametros Fiscais -> Situações #####
+                #######################################################################
+                             ###############---SITUACOES---################
+                #######################################################################
+                
+                self.wait(2000)
+                # Searching for element 'cadastros '
+                if not bot.find("cadastros", matching=0.97, waiting_time=10000):
+                    not_found("cadastros")
+                bot.click()
+                if not self.find( "parametrosfiscais", matching=0.97, waiting_time=10000):
+                    self.not_found("parametrosfiscais")
+                self.click()
+                if not self.find( "situacoes", matching=0.97, waiting_time=10000):
+                    self.not_found("situacoes")
+                self.click()           
+                # Searching for element 'Localizar '
+                if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                    not_found("Localizar")
+                bot.click()
+                self.wait(1500)
+                # Searching for element 'btn_cadastro_incluir'
+                if not bot.find("btn_cadastro_incluir", matching=0.97, waiting_time=10000):
+                    not_found("btn_cadastro_incluir")
+                bot.click()
+                self.wait(500)
+                # if not bot.find( "fatu_cad_param_receituario_retornar", matching=0.97, waiting_time=10000):
+                #     not_found("fatu_cad_param_receituario_retornar")
+                # bot.click()
+                # if not self.find( "incluirco", matching=0.97, waiting_time=10000):
+                #     self.not_found("incluirco")
+                # self.click()
+                # if not self.find( "incluirco", matching=0.97, waiting_time=10000):
+                #     self.not_found("incluirco")
+                # self.click()
+                if not self.find( "operacaosituacao", matching=0.97, waiting_time=10000):
+                    self.not_found("operacaosituacao")
+                self.click_relative(50, 27)
+                self.wait(2000)
+                self.type_keys_with_interval(100,"0047")
+                self.wait(1500)
+                # Searching for element 'Localizar '
+                if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                    not_found("Localizar")
+                bot.click()
+                self.wait(1500)
+                # Searching for element 'btn_selecionar'
+                if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
+                    not_found("btn_selecionar")
+                bot.click()
+                self.wait(500)
+                if not self.find( "regiaosituacao", matching=0.97, waiting_time=10000):
+                    self.not_found("regiaosituacao")
+                self.click_relative(47, 26)
+                # Searching for element 'Localizar '
+                if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                    not_found("Localizar")
+                bot.click()
+                self.wait(1500)
+                # if not bot.find( "fatu_nordeste_situacoes_achar_btn", matching=0.97, waiting_time=10000):
+                #     not_found("fatu_nordeste_situacoes_achar_btn")
+                # bot.click()                                 
+                # Searching for element 'btn_selecionar'
+                self.type_keys_with_interval(100,"03")
+                
+                if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
+                    not_found("btn_selecionar")
+                bot.click()
+                self.wait(500)
+                if not self.find( "grupofiscalsituacao", matching=0.97, waiting_time=10000):
+                    self.not_found("grupofiscalsituacao")
+                self.click_relative(51, 30)
+                # if not self.find( "cod001btributado", matching=0.97, waiting_time=10000):
+                #     self.not_found("cod001btributado")
+                # self.click()
+                # if not self.find( "selecionarcfoppadrao", matching=0.97, waiting_time=10000):
+                #     self.not_found("selecionarcfoppadrao")
+                # self.click()
+                
+                # Searching for element 'Localizar '
+                if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                    not_found("Localizar")
+                bot.click()
+                self.wait(1500)
 
                 
+                if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
+                    not_found("btn_selecionar")
+                bot.click()
+                self.wait(500)
+                                ####---ICMS---####
+                                
+                if not self.find( "icmsbasecalculo", matching=0.97, waiting_time=10000):
+                    self.not_found("icmsbasecalculo")
+                self.click_relative(146, 50)            
+                self.type_keys_with_interval(1,'123')
+                if not self.find( "icmsbasecalculo", matching=0.97, waiting_time=10000):
+                    self.not_found("icmsbasecalculo")
+                self.click_relative(140, 29)
+                self.type_keys_with_interval(1,'123')
+                x=0
+                while x<5:
+                    if not self.find( "icmstipo", matching=0.97, waiting_time=10000):
+                        self.not_found("icmstipo")
+                    self.click_relative(621, 47)
+                    self.type_down()
+                    self.enter()
+                    x=x+1
+                x=0
+                while x<5:
+                    if not self.find( "icmstipo", matching=0.97, waiting_time=10000):
+                        self.not_found("icmstipo")
+                    self.click_relative(621, 47)
+                    self.type_up()
+                    self.enter()
+                    x=x+1
+                if not self.find( "redutoraliquotabase", matching=0.97, waiting_time=10000):
+                    self.not_found("redutoraliquotabase")
+                self.click_relative(140, 27)
+                self.type_keys_with_interval(1,'123')
+                if not self.find( "saldobasereduzicms", matching=0.97, waiting_time=10000):
+                    self.not_found("saldobasereduzicms")
+                self.click_relative(142, 31)
+                self.type_down()
+                self.enter()
+                if not self.find( "saldobasereduzicms", matching=0.97, waiting_time=10000):
+                    self.not_found("saldobasereduzicms")
+                self.click_relative(142, 31)
+                self.type_down()
+                self.enter()
+                if not self.find( "saldobasereduzicms", matching=0.97, waiting_time=10000):
+                    self.not_found("saldobasereduzicms")
+                self.click_relative(142, 31)
+                self.type_down()
+                self.enter()
+                x=0
+                while x<4:
+                    if not self.find( "icmsmodalidade", matching=0.97, waiting_time=10000):
+                        self.not_found("icmsmodalidade")
+                    self.click_relative(1261, 45)
+                    self.type_down()
+                    self.enter()
+                    x=x+1
+                x=0
+                while x<3:
+                    if not self.find( "icmsmodalidade", matching=0.97, waiting_time=10000):
+                        self.not_found("icmsmodalidade")
+                    self.click_relative(1261, 45)
+                    self.type_up()
+                    self.enter()
+                    x=x+1
+                x=0
+                while x<20:
+                    if not self.find( "situacaotributariaicms", matching=0.97, waiting_time=10000):
+                        self.not_found("situacaotributariaicms")
+                    self.click_relative(300, 96)
+                    self.type_down()
+                    self.enter()
+                    x=x+1
+                
+                if not self.find( "baseicmsdiferencaliquota", matching=0.97, waiting_time=10000):
+                    self.not_found("baseicmsdiferencaliquota")
+                self.click_relative(141, 27)
+                self.type_keys_with_interval(1,'123')
+                if not self.find( "aliquotadiferencialicms", matching=0.97, waiting_time=10000):
+                    self.not_found("aliquotadiferencialicms")
+                self.click_relative(142, 27)
+                self.type_keys_with_interval(1,'123')
+                if not self.find( "aliquotaicmsdesoneracao", matching=0.97, waiting_time=10000):
+                    self.not_found("aliquotaicmsdesoneracao")
+                self.click_relative(141, 30)           
+                self.type_keys_with_interval(1,'123')
+                self.enter()
+                
+                x=0
+                while x<12:
+                    if not self.find( "motivodesoneracaoicms", matching=0.97, waiting_time=10000):
+                        self.not_found("motivodesoneracaoicms")
+                    self.click_relative(296, 26)
+                    self.type_down()
+                    self.enter()
+                    x=x+1
+                self.enter()    
+                if not self.find( "descontadovalortotalicms", matching=0.97, waiting_time=10000):
+                    self.not_found("descontadovalortotalicms")
+                self.click()
+                if not self.find( "descontadovalortotalmarcado", matching=0.97, waiting_time=10000):
+                    self.not_found("descontadovalortotalmarcado")
+                self.click()
+                if not self.find( "descontadovalortotal1", matching=0.97, waiting_time=10000):
+                    self.not_found("descontadovalortotal1")
+                self.click()
+                if not self.find( "calculardiferimentoicms", matching=0.97, waiting_time=10000):
+                    self.not_found("calculardiferimentoicms")
+                self.click()
+                
+                if not self.find( "cteemoutrasuf", matching=0.97, waiting_time=10000):
+                    self.not_found("cteemoutrasuf")
+                self.click()
+                
+                
+                if not self.find( "icmsstdifinterno", matching=0.97, waiting_time=10000):
+                    self.not_found("icmsstdifinterno")
+                self.click_relative(197, 25)
+                self.type_down()
+                self.enter()
+                if not self.find( "icmsstdifinterno", matching=0.97, waiting_time=10000):
+                    self.not_found("icmsstdifinterno")
+                self.click_relative(197, 25)
+                self.type_down()
+                self.enter()
+                
+                self.wait(1000)
+                                ####---ICMS SUBS TRIBU---####  
+                
+                if not self.find( "icmssubstrib", matching=0.97, waiting_time=10000):
+                    self.not_found("icmssubstrib")
+                self.click_relative(143, 46)
+                self.type_keys_with_interval(1,'123')
+                self.wait(1000)
+                self.enter()
+                if not self.find( "icmssubstibaliq", matching=0.97, waiting_time=10000):
+                    self.not_found("icmssubstibaliq")
+                self.click_relative(305, 46)
+                self.type_keys_with_interval(1,'123')
+                self.wait(1000)
+                self.enter()
+                if not self.find( "stnototaldodocumento", matching=0.97, waiting_time=10000):
+                    self.not_found("stnototaldodocumento")
+                self.click_relative(140, 28)
+                self.type_up()
+                self.enter()
+                if not self.find( "stnototaldodocumento", matching=0.97, waiting_time=10000):
+                    self.not_found("stnototaldodocumento")
+                self.click_relative(140, 28)
+                self.type_down()
+                self.enter()
+                if not self.find( "stnototaldodocumento", matching=0.97, waiting_time=10000):
+                    self.not_found("stnototaldodocumento")
+                self.click_relative(140, 28)
+                self.type_down()
+                self.enter()
+                self.enter()
+                if not self.find( "reduzirvalordoicms", matching=0.97, waiting_time=10000):
+                    self.not_found("reduzirvalordoicms")
+                self.click()
+                if not self.find( "reduzirvalordoicmsmarcado", matching=0.97, waiting_time=10000):
+                    self.not_found("reduzirvalordoicmsmarcado")
+                self.click()
+                x=0
+                while x<5:
+                    if not self.find( "tipoantecipacaovalida", matching=0.97, waiting_time=10000):
+                        self.not_found("tipoantecipacaovalida")
+                    self.click_relative(295, 27)
+                    self.type_down()
+                    self.enter()
+                    x=x+1
+                x=0
+                while x<7:
+                    if not bot.find( "fatu_modalidade_rel_cad_situacoes", matching=0.97, waiting_time=10000):
+                        not_found("fatu_modalidade_rel_cad_situacoes")
+                    bot.click_relative(343, 92)
+                    self.type_down()
+                    self.enter()
+                    x=x+1
+                if not self.find( "percentualreducaobaseicmsst", matching=0.97, waiting_time=10000):
+                    self.not_found("percentualreducaobaseicmsst")
+                self.click_relative(175, 23)
+                self.type_keys_with_interval(1,'123')
+                self.wait(1000)
+                if not bot.find( "fatu_cad_situacoes_flecha_esquerda", matching=0.97, waiting_time=10000):
+                    not_found("fatu_cad_situacoes_flecha_esquerda")
+                bot.click()
+                x = 0
+                while x < 31:
+                    self.click()
+                    x += 1
+                
+                if not self.find( "baseicmsdifst", matching=0.97, waiting_time=10000):
+                    self.not_found("baseicmsdifst")
+                self.click_relative(140, 30)
+                self.type_keys_with_interval(1,'123')
+                if not self.find( "aliquotadiferencialst", matching=0.97, waiting_time=10000):
+                    self.not_found("aliquotadiferencialst")
+                self.click_relative(142, 30)
+                self.type_keys_with_interval(1,'123') 
+                self.wait(500)
+                self.enter()             
+                
+                                ####---ICMS SUB TRIB RETIDA---####   
+                
+                if not self.find( "icmsretida", matching=0.97, waiting_time=10000):
+                    self.not_found("icmsretida")
+                self.click_relative(144, 46)
+                self.type_keys_with_interval(1,'123')
+                if not self.find( "fecharcalculadorasituacao", matching=0.97, waiting_time=10000):
+                    self.not_found("fecharcalculadorasituacao")
+                self.click()            
+                if not self.find( "icmsretida", matching=0.97, waiting_time=10000):
+                    self.not_found("icmsretida")
+                self.click_relative(303, 46)
+                self.type_keys_with_interval(1,'123')
+                if not self.find( "fecharcalculadorasituacao", matching=0.97, waiting_time=10000):
+                    self.not_found("fecharcalculadorasituacao")
+                self.click()
+                x=0
+                while x<7:
+                    if not self.find( "valororigembasedecalculo", matching=0.97, waiting_time=10000):
+                        self.not_found("valororigembasedecalculo")
+                    self.click_relative(297, 25)
+                    self.type_down()
+                    self.enter()
+                    x=x+1
+                if not self.find( "aliquotafcpretida", matching=0.97, waiting_time=10000):
+                    self.not_found("aliquotafcpretida")
+                self.click_relative(140, 32)
+                self.type_keys_with_interval(1,'123')
+                
+                                ####---IPI---####
+                
+                if not self.find( "IPIbasecalculo", matching=0.97, waiting_time=10000):
+                    self.not_found("IPIbasecalculo")
+                self.click_relative(143, 47)
+                self.type_keys_with_interval(1,'123')
+                if not self.find( "fecharcalculadorasituacao", matching=0.97, waiting_time=10000):
+                    self.not_found("fecharcalculadorasituacao")
+                self.click()
+                
+                if not self.find( "ipialiquota", matching=0.97, waiting_time=10000):
+                    self.not_found("ipialiquota")
+                self.click_relative(303, 46)
+                self.type_keys_with_interval(1,'1')
+                self.backspace()
+                self.type_keys_with_interval(1,'0')
+                if not self.find( "fecharcalculadorasituacao", matching=0.97, waiting_time=10000):
+                    self.not_found("fecharcalculadorasituacao")
+                self.click()
+                
+                x=0
+                while x<6:
+                    if not self.find( "ipitipo", matching=0.97, waiting_time=10000):
+                        self.not_found("ipitipo")
+                    self.click_relative(624, 46)
+                    self.type_down()
+                    self.enter()
+                    x=x+1
+                if not self.find( "enquadramentoipi", matching=0.97, waiting_time=10000):
+                    self.not_found("enquadramentoipi")
+                self.click_relative(40, 27)
+                self.type_keys_with_interval(1,'t1!')
+                if not self.find( "ipirsquantidade", matching=0.97, waiting_time=10000):
+                    self.not_found("ipirsquantidade")
+                self.click_relative(141, 27)
+                self.type_keys_with_interval(1,'123')
+                
+                # x=0
+                # while x<14:
+                #     if not bot.find( "fatu_btn_situacao_tributaria_2411_rel", matching=0.97, waiting_time=10000):
+                #         not_found("fatu_btn_situacao_tributaria_2411_rel")
+                #     bot.click_relative(453, 27)
+                #     self.type_down()
+                #     self.enter()
+                #     x=x+1
 
-
-
-
-
-
-
-
-
+                self.wait(500)
+                self.enter()
+                self.space()
+                self.enter()
+                self.space()
                 
 
+                if not bot.find( "fatu_cad_situacoes_flecha_esquerda", matching=0.97, waiting_time=10000):
+                    not_found("fatu_cad_situacoes_flecha_esquerda")
+                bot.click()
+                x = 0
+                while x < 31:
+                    self.click()
+                    x += 1
+                
+
+                if not bot.find( "fatu_cad_btn_descer_flecha_situacoes", matching=0.97, waiting_time=10000):
+                    not_found("fatu_cad_btn_descer_flecha_situacoes")
+                bot.click()
+
+                x = 0
+                while x < 30:
+                    self.click()
+                    x += 1
+                
+                self.wait(1500)
+                if not bot.find( "fatu_cad_situacoes_frete_base_ipi", matching=0.97, waiting_time=10000):
+                    not_found("fatu_cad_situacoes_frete_base_ipi")
+                bot.click()
+                
+                self.wait(1500)
+                if not bot.find( "fatu_cad_situacoes_frete_base_marcado", matching=0.97, waiting_time=10000):
+                    not_found("fatu_cad_situacoes_frete_base_marcado")
+                bot.click()
+                if not bot.find( "fatu_cad_situacoes_ipi_base_sub", matching=0.97, waiting_time=10000):
+                    not_found("fatu_cad_situacoes_ipi_base_sub")
+                bot.click()
+                self.wait(1000)
+                self.space()
+                
+                self.enter()
+                if not self.find( "indicevariacaopreco", matching=0.97, waiting_time=10000):
+                    self.not_found("indicevariacaopreco")
+                self.click_relative(140, 30)
+                self.type_keys_with_interval(1,'123')
+                if not self.find( "cancelacalculadoraipi", matching=0.97, waiting_time=10000):
+                    self.not_found("cancelacalculadoraipi")
+                self.click()
+                
+                if not self.find( "basepresumidomapafiscal", matching=0.97, waiting_time=10000):
+                    self.not_found("basepresumidomapafiscal")
+                self.click_relative(140, 26)
+                self.type_keys_with_interval(1,'123')
+                if not self.find( "cancelacalculadoraipi", matching=0.97, waiting_time=10000):
+                    self.not_found("cancelacalculadoraipi")
+                self.click()
+                
+                x=0
+                while x<8:
+                    if not self.find( "atividadepresumido", matching=0.97, waiting_time=10000):
+                        self.not_found("atividadepresumido")
+                    self.click_relative(300, 28)
+                    self.type_down()
+                    self.enter()
+                    x=x+1
+                if not self.find( "aliquotaecf", matching=0.97, waiting_time=10000):
+                    self.not_found("aliquotaecf")
+                self.click_relative(40, 27)
+                self.type_keys_with_interval(1,'t1')
+                self.enter()
+                self.type_keys_with_interval(1,'t1!')
+                if not self.find( "datadevalidadeipi", matching=0.97, waiting_time=10000):
+                    self.not_found("datadevalidadeipi")
+                self.click_relative(140, 25)
+                if not self.find( "diadatavalidade", matching=0.97, waiting_time=10000):
+                    self.not_found("diadatavalidade")
+                self.click_relative(97, 74)
+                
+                                ####---ABAIXANDO TELA---####
+                                
+                if not self.find( "abaixandotelasituacao1", matching=0.97, waiting_time=10000):
+                    self.not_found("abaixandotelasituacao1")
+                self.click()
+                x=0
+                while x<11:
+                    if not self.find( "abaixandotelasituacao2", matching=0.97, waiting_time=10000):
+                        self.not_found("abaixandotelasituacao2")
+                    self.click()
+                    x=x+1
+                
+                                ####---AJUSTE SPED ICMS C197---####
+                                
+                if not self.find( "codigo", matching=0.97, waiting_time=10000):
+                    self.not_found("codigo")
+                self.click_relative(22, 28)
+                self.type_keys_with_interval(1,'t1!')
+                if not self.find( "descricaoajuste", matching=0.97, waiting_time=10000):
+                    self.not_found("descricaoajuste")
+                self.click_relative(188, 44)
+                self.type_keys_with_interval(1,'te12!@')    
+                
+                                ####---PIS, COFINS, ISS---####
+                self.wait(1000)       
+                if not self.find( "aba2piscofinsiss", matching=0.97, waiting_time=10000):
+                    self.not_found("aba2piscofinsiss")
+                self.click()
+                if not self.find( "pisbasecalculo", matching=0.97, waiting_time=10000):
+                    self.not_found("pisbasecalculo")
+                self.click_relative(145, 46)
+                self.type_keys_with_interval(1,'123')
+                if not self.find( "pisaliquota", matching=0.97, waiting_time=10000):
+                    self.not_found("pisaliquota")
+                self.click_relative(304, 47)
+                self.type_keys_with_interval(1,'123')
+                
+                x=0
+                while x<5:
+                    if not self.find( "tipopis", matching=0.97, waiting_time=10000):
+                        self.not_found("tipopis")
+                    self.click_relative(625, 47)
+                    self.type_up()
+                    self.enter()
+                    x=x+1
+                
+                if not self.find( "pisvalordeunidade", matching=0.97, waiting_time=10000):
+                    self.not_found("pisvalordeunidade")
+                self.click_relative(786, 46)
+                self.type_keys_with_interval(1,'123')
+                
+                x=0
+                while x<33:
+                    if not self.find( "pissituacaotributaria", matching=0.97, waiting_time=10000):
+                        self.not_found("pissituacaotributaria")
+                    self.click_relative(1101, 47)
+                    self.type_down()
+                    self.enter()
+                    x=x+1
+                    
+                x=0
+                while x<4:
+                    if not self.find( "pisrateiocreditocomuns", matching=0.97, waiting_time=10000):
+                        self.not_found("pisrateiocreditocomuns")
+                    self.click_relative(304, 94)
+                    self.type_down()
+                    self.enter()
+                    x=x+1
+                
+
+                #if not bot.find( "fatu_cad_situacoes_descontar_valor_icms", matching=0.97, waiting_time=10000):
+                #    not_found("fatu_cad_situacoes_descontar_valor_icms")
+                #bot.click()
+                #if not bot.find( "fatu_cad_situacoes_descontar_valor_icms_marcado", matching=0.97, waiting_time=10000):
+                #    not_found("fatu_cad_situacoes_descontar_valor_icms_marcado")
+                #bot.click()
+                #self.wait(500)
+                #self.enter()
+                #self.space()
+                    
+                                ####---COFINS---####
+                                
+                if not self.find( "cofinsbase", matching=0.97, waiting_time=10000):
+                    self.not_found("cofinsbase")
+                self.click_relative(145, 46)
+                self.type_keys_with_interval(1,'123')
+                if not self.find( "cofinsbase", matching=0.97, waiting_time=10000):
+                    self.not_found("cofinsbase")
+                self.click_relative(304, 47)
+                self.type_keys_with_interval(1,'123')
+                x=0
+                while x<5:
+                    if not self.find( "cofinsbase", matching=0.97, waiting_time=10000):
+                        self.not_found("cofinsbase")
+                    self.click_relative(625, 47)
+                    self.type_up()
+                    self.enter()
+                    x=x+1
+                if not self.find( "cofinsbase", matching=0.97, waiting_time=10000):
+                        self.not_found("cofinsbase")
+                self.click_relative(786, 46)
+                self.type_keys_with_interval(1,'123')
+                
+                x=0
+                while x<33:
+                    if not self.find( "cofinsbase", matching=0.97, waiting_time=10000):
+                        self.not_found("cofinsbase")
+                    self.click_relative(1101, 47)
+                    self.type_down()
+                    self.enter()
+                    x=x+1
+            
+                x=0
+                while x<19:
+                    if not self.find( "cofinsbase", matching=0.97, waiting_time=10000):
+                        self.not_found("cofinsbase")
+                    self.click_relative(304, 94)
+                    self.type_down()
+                    self.enter()
+                    x=x+1
+                    
+                                ####---ISS---####
+                                
+                if not self.find( "issbasecalculo", matching=0.97, waiting_time=10000):
+                    self.not_found("issbasecalculo")
+                self.click_relative(145, 48)
+                self.type_keys_with_interval(1,'123')
+                self.enter()
+                self.enter()
+                self.type_keys_with_interval(1,'123')
+                self.enter()
+                
+                self.type_keys_with_interval(1,'t1!')
+                
+                x=0
+                while x<8:
+                    if not self.find( "issexigiblidade", matching=0.97, waiting_time=10000):
+                        self.not_found("issexigiblidade")
+                    self.click_relative(787, 47)
+                    self.type_down()
+                    self.enter()
+                    x=x+1
+                    
+                                ####---OUTROS IMPOSTOS---####
+                                
+                if not self.find( "outrosimpostossuframa", matching=0.97, waiting_time=10000):
+                    self.not_found("outrosimpostossuframa")
+                self.click_relative(145, 46)
+                self.type_keys_with_interval(1,'123')
+                self.enter()
+                self.enter()
+                self.type_keys_with_interval(1,'123')
+                self.enter()
+                
+                self.type_keys_with_interval(1,'123')
+                self.enter()
+                
+                self.type_keys_with_interval(1,'123')
+                self.enter()
+                
+                
+                                ####---RETENCOES---####
+                                
+                if not self.find( "retencoesaliquotairrf", matching=0.97, waiting_time=10000):
+                    self.not_found("retencoesaliquotairrf")
+                self.click_relative(144, 49)
+                self.type_keys_with_interval(1,'123')
+                self.enter()
+                self.enter()
+                self.type_keys_with_interval(1,'123')
+                self.enter()
+                
+                self.type_keys_with_interval(1,'123')
+                self.enter()
+                
+                self.type_keys_with_interval(1,'123')
+                self.enter()
+                
+                self.type_keys_with_interval(1,'123')
+                self.enter()
+                
+                self.type_keys_with_interval(1,'123')
+                self.enter()
+                
+                
+                                ####---DECRETOS E OBSERVACOES---####
+                                
+                if not self.find( "decretoseobservacoesemsituacao", matching=0.97, waiting_time=10000):
+                    self.not_found("decretoseobservacoesemsituacao")
+                self.click()
+                if not self.find( "decretonf1", matching=0.97, waiting_time=10000):
+                    self.not_found("decretonf1")
+                self.click_relative(43, 28)
+                if not self.find( "cod001bdecretonf", matching=0.97, waiting_time=10000):
+                    self.not_found("cod001bdecretonf")
+                self.click()
+                # Searching for element 'btn_selecionar'
+                if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
+                    not_found("btn_selecionar")
+                bot.click()
+                if not self.find( "decretonf2", matching=0.97, waiting_time=10000):
+                    self.not_found("decretonf2")
+                self.click_relative(43, 25)
+                if not self.find( "cod001bdecretonf", matching=0.97, waiting_time=10000):
+                    self.not_found("cod001bdecretonf")
+                self.click()
+                # Searching for element 'btn_selecionar'
+                if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
+                    not_found("btn_selecionar")
+                bot.click()
+                
+                if not self.find( "observacaonf1", matching=0.97, waiting_time=10000):
+                    self.not_found("observacaonf1")
+                self.click_relative(43, 26)
+                if not self.find( "cod001bdecretonf", matching=0.97, waiting_time=10000):
+                    self.not_found("cod001bdecretonf")
+                self.click()
+                # Searching for element 'btn_selecionar'
+                if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
+                    not_found("btn_selecionar")
+                bot.click()
+                if not self.find( "observacaonf2", matching=0.97, waiting_time=10000):
+                    self.not_found("observacaonf2")
+                self.click_relative(44, 29)
+                if not self.find( "cod001bdecretonf", matching=0.97, waiting_time=10000):
+                    self.not_found("cod001bdecretonf")
+                self.click()
+                # Searching for element 'btn_selecionar'
+                if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
+                    not_found("btn_selecionar")
+                bot.click()
+                
+                if not self.find( "cfopsituacao1", matching=0.97, waiting_time=10000):
+                    self.not_found("cfopsituacao1")
+                self.click_relative(58, 25)
+                self.backspace()
+                # Searching for element 'Localizar '
+                if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                    not_found("Localizar")
+                bot.click()
+                self.wait(1500)
+                if not self.find( "buscarcfop", matching=0.97, waiting_time=10000):
+                    self.not_found("buscarcfop")
+                self.click_relative(59, 30)
+                self.type_keys_with_interval(1,'5.101')
+                if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                    not_found("Localizar")
+                bot.click()
+                
+                # Searching for element 'btn_selecionar'
+                if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
+                    not_found("btn_selecionar")
+                bot.click()
+                
+                if not self.find( "observacaocfop", matching=0.97, waiting_time=10000):
+                    self.not_found("observacaocfop")
+                self.click_relative(24, 50)
+                self.type_keys_with_interval(1,'te12!@')
+                
+                                ####---GNRE---####
+                                
+                if not self.find( "gnresituacao", matching=0.97, waiting_time=10000):
+                    self.not_found("gnresituacao")
+                self.click()
+                if not self.find( "incluirnovoregistrognresituacao", matching=0.97, waiting_time=10000):
+                    self.not_found("incluirnovoregistrognresituacao")
+                self.click()
+                # Searching for element 'cancelarAlternativoTelappequenaGNRE '
+                if not bot.find("cancelarAlternativoTelappequenaGNRE", matching=0.97, waiting_time=10000):
+                    not_found("cancelarAlternativoTelappequenaGNRE")
+                bot.click_relative(21, -36)
+                if not self.find( "cancelargnre", matching=0.97, waiting_time=10000):
+                    self.not_found("cancelargnre")
+                self.click()
+                
+                self.wait(1500)
+                                ####---FINALIZACAO SITUACAO---###
+
+
+
+                                
+                # if not self.find( "salvarsituacao", matching=0.97, waiting_time=10000):
+                #     self.not_found("salvarsituacao")
+                # self.click()
+                # if not bot.find( "fatu_cad_param_receituario_retornar", matching=0.97, waiting_time=10000):
+                #     not_found("fatu_cad_param_receituario_retornar")
+                # bot.click()
+                # Searching for element 'Localizar '
+                # Searching for element 'calcelartelaPequenaGNRE '
+                if not bot.find("calcelartelaPequenaGNRE", matching=0.97, waiting_time=10000):
+                    not_found("calcelartelaPequenaGNRE")
+                bot.click_relative(84, 10)
+
+                # Searching for element 'SubABA-ICMS-IPI '
+                if not bot.find("SubABA-ICMS-IPI", matching=0.97, waiting_time=10000):
+                    not_found("SubABA-ICMS-IPI")
+                bot.click()
+
+                # Searching for element 'selectCampSituacaoTributariab '
+                if not bot.find("selectCampSituacaoTributariab", matching=0.97, waiting_time=10000):
+                    not_found("selectCampSituacaoTributariab")
+                bot.click_relative(950, 112)
+                self.type_down()
+                self.enter()
+
+                # Searching for element 'btn_Salvar_form'
+                if not bot.find("btn_Salvar_form", matching=0.97, waiting_time=10000):
+                    not_found("btn_Salvar_form")
+                bot.click()
+
+                # Searching for element 'retornar '
+                if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                    not_found("retornar")
+                bot.click_relative(-83, 72)
+                                
+                # Searching for element 'retornar '
+                if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                    not_found("retornar")
+                bot.click_relative(-83, 68)
 
 
 
              
                 
 
-
-
-
-
-
-
-
-
-
-                
 
                 
 
