@@ -118,7 +118,7 @@ class Bot(DesktopBot) :
                 # bot.click_relative(53, 26)
                 # # Searching for element 'btn_localizar'
                 # if not bot.find("btn_localizar", matching=0.97, waiting_time=10000):
-                #     not_found("btn_localizar")
+                #     not_found("btn_ localizar")
                 # bot.click()
                 # # Searching for element 'btn_selecionar'
                 # if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
@@ -6123,9 +6123,9 @@ class Bot(DesktopBot) :
                 #     not_found("retornar")
                 # bot.click_relative(-83, 68)
 
-                #######################################################
-                ## Cadastros -> Clientes Fornecedores e Transportes ###
-                #######################################################
+                # ######################################################
+                # # Cadastros -> Clientes Fornecedores e Transportes ###
+                # ######################################################
                
                 # # Searching for element 'Cadastro '
                 # if not bot.find("Cadastro", matching=0.97, waiting_time=10000):
@@ -6961,54 +6961,210 @@ class Bot(DesktopBot) :
                 #     not_found("btn_Vsim")
                 # bot.click()
 
-                ### subSub menu Local de Entrega
+                # ### subSub menu Local de Entrega
 
-                # Searching for element 'subSubMenu_LocaldeEntrega_ '
-                if not bot.find("subSubMenu_LocaldeEntrega_", matching=0.97, waiting_time=10000):
-                    not_found("subSubMenu_LocaldeEntrega_")
+                # # Searching for element 'subSubMenu_LocaldeEntrega_ '
+                # if not bot.find("subSubMenu_LocaldeEntrega_", matching=0.97, waiting_time=10000):
+                #     not_found("subSubMenu_LocaldeEntrega_")
+                # bot.click()
+
+                # # Searching for element 'incluirSmall '
+                # if not bot.find("incluirSmall", matching=0.97, waiting_time=10000):
+                #     not_found("incluirSmall")
+                # bot.click()
+
+                # # Searching for element 'btn_nao'
+                # if not bot.find("btn_nao", matching=0.97, waiting_time=10000):
+                #     not_found("btn_nao")
+                # bot.click()
+
+                # self.type_keys_with_interval(50, "qa12!")
+                # self.tab()
+                # self.type_keys_with_interval(50, "qa12!")
+                # self.tab()
+                # self.type_keys_with_interval(50, "qa12!")
+                # self.tab()
+                # self.type_keys_with_interval(50, "qa12!")
+                # self.tab()
+                # self.type_keys_with_interval(50, "564.732.579-34")
+                # self.tab()
+                # self.type_keys_with_interval(50, "12121212")
+                # self.tab()
+                # x = 0
+                # while x < 4:
+                #     self.type_down() 
+                #     self.wait(800)                                
+                #     x = x + 1
+                # self.tab()
+                # self.type_keys_with_interval(50, "0008")
+                # self.tab()
+                # self.tab()
+                # self.type_keys_with_interval(50, "85012-000")
+                # self.tab()
+                # # Searching for element 'PesquisarMunicipioCEP '
+                # if not bot.find("PesquisarMunicipioCEP", matching=0.97, waiting_time=10000):
+                #     not_found("PesquisarMunicipioCEP")
+                # bot.click()
+                # self.tab()
+                # self.type_keys_with_interval(50, "123")
+                # self.tab()
+                # self.type_keys_with_interval(50, "qa12!")
+                # self.tab()
+                # self.tab()
+                # self.type_keys_with_interval(50, "42999999999")
+                # self.tab()
+                # x = 0
+                # while x < 4:
+                #     self.type_down() 
+                #     self.wait(800)                                
+                #     x = x + 1
+                # self.tab()
+                # self.type_right()
+                # self.type_right()
+                # self.tab()
+                # self.tab()
+                # self.tab()
+                # self.space()
+                # self.tab()
+                # self.type_keys_with_interval(50, "124")
+                # self.wait(900)
+
+                # # Searching for element 'botaoSalvarVerdePequnocantoesquerdo2 '
+                # if not bot.find("botaoSalvarVerdePequnocantoesquerdo2", matching=0.97, waiting_time=10000):
+                #     not_found("botaoSalvarVerdePequnocantoesquerdo2")
+                # bot.click_relative(-100, 224)
+                # self.wait(700)
+                # # Searching for element 'excluirLixeiraPequenaLadoEsquerdo '
+                # if not bot.find("excluirLixeiraPequenaLadoEsquerdo", matching=0.97, waiting_time=10000):
+                #     not_found("excluirLixeiraPequenaLadoEsquerdo")
+                # bot.click_relative(-102, 201)
+                # self.wait(700)
+                # # Searching for element 'btn_Vsim'
+                # if not bot.find("btn_Vsim", matching=0.97, waiting_time=10000):
+                #     not_found("btn_Vsim")
+                # bot.click()
+
+                ### Adicionar Local de entrega
+
+                # # Searching for element 'adicionar+botaopequenoverde '
+                # if not bot.find("adicionar+botaopequenoverde", matching=0.97, waiting_time=10000):
+                #     not_found("adicionar+botaopequenoverde")
+                # bot.click()
+                # # Searching for element 'btn_Xnao'
+                # if not bot.find("btn_Xnao", matching=0.97, waiting_time=10000):
+                #     not_found("btn_Xnao")
+                # bot.click()
+
+                # self.type_keys_with_interval(50, "qa12!")
+                # self.tab()
+                # self.type_keys_with_interval(50, "qa12!")
+                # self.tab()
+                # self.type_keys_with_interval(50, "qa12!")
+                # self.tab()
+                # self.type_keys_with_interval(50, "qa12!")
+                # self.tab()
+                # self.type_keys_with_interval(50, "564.732.579-34")
+                # self.tab()
+                # self.type_keys_with_interval(50, "12121212")
+                # self.tab()
+                # x = 0
+                # while x < 4:
+                #     self.type_down() 
+                #     self.wait(800)                                
+                #     x = x + 1
+                # self.tab()
+                # self.type_keys_with_interval(50, "0008")
+                # self.tab()
+                # self.tab()
+                # self.type_keys_with_interval(50, "85012-000")
+                # self.tab()
+                # # Searching for element 'PesquisarMunicipioCEP '
+                # if not bot.find("PesquisarMunicipioCEP", matching=0.97, waiting_time=10000):
+                #     not_found("PesquisarMunicipioCEP")
+                # bot.click()
+                # self.tab()
+                # self.type_keys_with_interval(50, "123")
+                # self.tab()
+                # self.type_keys_with_interval(50, "qa12!")
+                # self.tab()
+                # self.tab()
+                # self.type_keys_with_interval(50, "42999999999")
+                # self.tab()
+                # x = 0
+                # while x < 4:
+                #     self.type_down() 
+                #     self.wait(800)                                
+                #     x = x + 1
+                # self.tab()
+                # self.type_right()
+                # self.type_right()
+                # self.tab()
+                # self.tab()
+                # self.tab()
+                # self.space()
+                # self.tab()
+                # self.type_keys_with_interval(50, "124")
+                # self.wait(900)
+                # # Searching for element 'botaoSalvarVerdePequnocantoesquerdo2 '
+                # if not bot.find("botaoSalvarVerdePequnocantoesquerdo2", matching=0.97, waiting_time=10000):
+                #     not_found("botaoSalvarVerdePequnocantoesquerdo2")
+                # bot.click_relative(-100, 224)
+                # self.wait(700)
+                # # Searching for element 'excluirLixeiraPequenaLadoEsquerdo '
+                # if not bot.find("excluirLixeiraPequenaLadoEsquerdo", matching=0.97, waiting_time=10000):
+                #     not_found("excluirLixeiraPequenaLadoEsquerdo")
+                # bot.click_relative(-102, 201)
+                # self.wait(700)
+                # # Searching for element 'btn_Vsim'
+                # if not bot.find("btn_Vsim", matching=0.97, waiting_time=10000):
+                #     not_found("btn_Vsim")
+                # bot.click()
+
+                ### Pessoas contatos
+
+                # Searching for element '_subsubmenuPessoas(Contatos) '
+                if not bot.find("_subsubmenuPessoas(Contatos)", matching=0.97, waiting_time=10000):
+                    not_found("_subsubmenuPessoas(Contatos)")
                 bot.click()
-
-                # Searching for element 'incluirSmall '
-                if not bot.find("incluirSmall", matching=0.97, waiting_time=10000):
-                    not_found("incluirSmall")
+                # Searching for element 'adicionar+botaopequenoverde '
+                if not bot.find("adicionar+botaopequenoverde", matching=0.97, waiting_time=10000):
+                    not_found("adicionar+botaopequenoverde")
                 bot.click()
-
-                # Searching for element 'btn_nao'
-                if not bot.find("btn_nao", matching=0.97, waiting_time=10000):
-                    not_found("btn_nao")
-                bot.click()
-
-                self.type_keys_with_interval(50, "qa12!")
-                self.tab()
-                self.type_keys_with_interval(50, "qa12!")
-                self.tab()
-                self.type_keys_with_interval(50, "qa12!")
-                self.tab()
-                self.type_keys_with_interval(50, "qa12!")
-                self.tab()
-                self.type_keys_with_interval(50, "564.732.579-34")
-                self.tab()
-                self.type_keys_with_interval(50, "12121212")
-                self.tab()
+                # # Searching for element 'btn_Xnao'
+                # if not bot.find("btn_Xnao", matching=0.97, waiting_time=10000):
+                #     not_found("btn_Xnao")
+                # bot.click()
                 x = 0
                 while x < 4:
                     self.type_down() 
                     self.wait(800)                                
                     x = x + 1
                 self.tab()
-                self.type_keys_with_interval(50, "0008")
+                self.type_keys_with_interval(50, "564.732.579-34")
                 self.tab()
+                self.type_keys_with_interval(50, "12121212")
                 self.tab()
-                self.type_keys_with_interval(50, "85012-000")
+
+                self.type_keys_with_interval(50, "qa12!")
                 self.tab()
-                # Searching for element 'PesquisarMunicipioCEP '
-                if not bot.find("PesquisarMunicipioCEP", matching=0.97, waiting_time=10000):
-                    not_found("PesquisarMunicipioCEP")
-                bot.click()
+                self.type_keys_with_interval(50, "123")
+                self.tab()
+                self.space()
+                self.space()
+                self.tab()
+                self.type_keys_with_interval(50, "qa12!")
                 self.tab()
                 self.type_keys_with_interval(50, "123")
                 self.tab()
                 self.type_keys_with_interval(50, "qa12!")
+                self.tab()
+                self.type_keys_with_interval(50, "85012-000")
+                self.tab()
+                self.type_keys_with_interval(50, "qa12!")
+                self.tab()
+                self.type_keys_with_interval(50, "123")
+                self.tab()
+                self.type_keys_with_interval(50, "0008")
                 self.tab()
                 self.tab()
                 self.type_keys_with_interval(50, "42999999999")
@@ -7019,16 +7175,43 @@ class Bot(DesktopBot) :
                     self.wait(800)                                
                     x = x + 1
                 self.tab()
-                self.type_right()
-                self.type_right()
+                self.type_keys_with_interval(50, "42999999999")
                 self.tab()
+                x = 0
+                while x < 4:
+                    self.type_down() 
+                    self.wait(800)                                
+                    x = x + 1
                 self.tab()
+                self.type_keys_with_interval(50, "qa12!")
+                self.tab()
+                self.type_keys_with_interval(50, "qa12!")
+                self.tab()
+                self.type_keys_with_interval(50, "42999999999")
+                self.tab()
+                x = 0
+                while x < 4:
+                    self.type_down() 
+                    self.wait(800)                                
+                    x = x + 1
+                self.tab()
+                self.type_keys_with_interval(50, "12")
+                self.tab()
+                self.type_keys_with_interval(50, "qa12!")
+                self.tab()
+                self.type_keys_with_interval(50, "teste@teste.com")
                 self.tab()
                 self.space()
+                x = 0
+                while x < 9:
+                    self.space()
+                    self.space()
+                    self.type_down() 
+                    self.wait(800)                                
+                    x = x + 1
                 self.tab()
-                self.type_keys_with_interval(50, "124")
+                self.type_keys_with_interval(50, "Observacoes qa12!")
                 self.wait(900)
-
                 # Searching for element 'botaoSalvarVerdePequnocantoesquerdo2 '
                 if not bot.find("botaoSalvarVerdePequnocantoesquerdo2", matching=0.97, waiting_time=10000):
                     not_found("botaoSalvarVerdePequnocantoesquerdo2")
@@ -7044,19 +7227,87 @@ class Bot(DesktopBot) :
                     not_found("btn_Vsim")
                 bot.click()
 
+                #### Avaliacoes
+                ### não tem avaliacoes na aba avaliacoes para cadastrar
 
+                # Searching for element '_subSubmenu_Avaliacoes '
+                if not bot.find("_subSubmenu_Avaliacoes", matching=0.97, waiting_time=10000):
+                    not_found("_subSubmenu_Avaliacoes")
+                bot.click()
 
+                #### Vendedor Auxiliares
+
+                # Searching for element '_subSubmenuVendedorAuxiliares '
+                if not bot.find("_subSubmenuVendedorAuxiliares", matching=0.97, waiting_time=10000):
+                    not_found("_subSubmenuVendedorAuxiliares")
+                bot.click()
+
+                # Searching for element 'adicionar+botaopequenoverde '
+                if not bot.find("adicionar+botaopequenoverde", matching=0.97, waiting_time=10000):
+                    not_found("adicionar+botaopequenoverde")
+                bot.click()
+                # Searching for element 'selecionaCaixinha '
+                if not bot.find("selecionaCaixinha", matching=0.97, waiting_time=10000):
+                    not_found("selecionaCaixinha")
+                bot.click_relative(26, 41)
+                # Searching for element 'btn_selecionar'
+                if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
+                    not_found("btn_selecionar")
+                bot.click()
+                # Searching for element 'excluirLixeiraPequenaLadoEsquerdo '
+                if not bot.find("excluirLixeiraPequenaLadoEsquerdo", matching=0.97, waiting_time=10000):
+                    not_found("excluirLixeiraPequenaLadoEsquerdo")
+                bot.click_relative(-102, 201)
+                self.wait(700)
+                # Searching for element 'btn_Vsim'
+                if not bot.find("btn_Vsim", matching=0.97, waiting_time=10000):
+                    not_found("btn_Vsim")
+                bot.click()
+
+                #### Documentos
+                # Searching for element '_subSubMenuDocumentos '
+                if not bot.find("_subSubMenuDocumentos", matching=0.97, waiting_time=10000):
+                    not_found("_subSubMenuDocumentos")
+                bot.click()
+                # Searching for element 'adicionar+botaopequenoverde '
+                if not bot.find("adicionar+botaopequenoverde", matching=0.97, waiting_time=10000):
+                    not_found("adicionar+botaopequenoverde")
+                bot.click()
+                # Searching for element 'selecionaPastaDocumentos '
+                if not bot.find("selecionaPastaDocumentos", matching=0.97, waiting_time=10000):
+                    not_found("selecionaPastaDocumentos")
+                bot.click()
+                # Searching for element 'CancelarbotaoCaixaselecionaDoc '
+                if not bot.find("CancelarbotaoCaixaselecionaDoc", matching=0.97, waiting_time=10000):
+                    not_found("CancelarbotaoCaixaselecionaDoc")
+                bot.click()
+                # Searching for element 'CancelarXvermelhopequeno '
+                if not bot.find("CancelarXvermelhopequeno", matching=0.97, waiting_time=10000):
+                    not_found("CancelarXvermelhopequeno")
+                bot.click()
+                # Searching for element 'retornarBotaoAlternativoTelaCadDocumentosdoSubMenuSuMenuDocumentos '
+                if not bot.find("retornarBotaoAlternativoTelaCadDocumentosdoSubMenuSuMenuDocumentos", matching=0.97, waiting_time=10000):
+                    not_found("retornarBotaoAlternativoTelaCadDocumentosdoSubMenuSuMenuDocumentos")
+                bot.click_relative(29, -27)
+
+                #### Contratos
+
+                # Searching for element '_SubsubMenuContratos '
+                if not bot.find("_SubsubMenuContratos", matching=0.97, waiting_time=10000):
+                    not_found("_SubsubMenuContratos")
+                bot.click()
                 
+                # Searching for element 'adicionar+botaopequenoverde '
+                if not bot.find("adicionar+botaopequenoverde", matching=0.97, waiting_time=10000):
+                    not_found("adicionar+botaopequenoverde")
+                bot.click()
+                ### este clique abaixo em nao vai depender se o cliente possui contrato ou nao, em regra marca como não
+                # Searching for element 'btn_Xnao'
+                if not bot.find("btn_Xnao", matching=0.97, waiting_time=10000):
+                    not_found("btn_Xnao")
+                bot.click()
 
-
-
-
-
-
-
-                
            
-                                
 
                 # Searching for element 'lpTelaCadDeClientesFOrnecedoreseTransportesCodContabilCLiente '
                 # if not bot.find("lpTelaCadDeClientesFOrnecedoreseTransportesCodContabilCLiente", matching=0.97, waiting_time=10000):
