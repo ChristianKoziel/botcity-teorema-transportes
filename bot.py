@@ -6636,6 +6636,7 @@ class Bot(DesktopBot) :
                 # if not bot.find("btn_Salvar_form", matching=0.97, waiting_time=10000):
                 #     not_found("btn_Salvar_form")
                 # bot.click()
+                # self.enter()
                 # # Searching for element 'aba2Agrupamentoooo '
                 # if not bot.find("aba2Agrupamentoooo", matching=0.97, waiting_time=10000):
                 #     not_found("aba2Agrupamentoooo")
@@ -7361,10 +7362,10 @@ class Bot(DesktopBot) :
                 # bot.click_relative(-102, 201)
                 # self.wait(700)
                 # #por enquanto nao ta aparecendo o botao sim pq nao salvou registro completo, nao tem registro para salvar
-                # # # Searching for element 'btn_Vsim'
-                # # if not bot.find("btn_Vsim", matching=0.97, waiting_time=10000):
-                # #     not_found("btn_Vsim")
-                # # bot.click()
+                # # Searching for element 'btn_Vsim'
+                # if not bot.find("btn_Vsim", matching=0.97, waiting_time=10000):
+                #     not_found("btn_Vsim")
+                # bot.click()
                 # # Searching for element 'bntMenuSubCategoriasCampanha '
                 # if not bot.find("bntMenuSubCategoriasCampanha", matching=0.97, waiting_time=10000):
                 #     not_found("bntMenuSubCategoriasCampanha")
@@ -7830,9 +7831,9 @@ class Bot(DesktopBot) :
                 #     not_found("retornar")
                 # bot.click_relative(-83, 70)
 
-                ############
+                # ###########
                 # ##### Cadastro -> Veiculos -> Veiculos
-                ############
+                # ###########
 
                 # if not bot.find("btn_cadastro", matching=0.97, waiting_time=10000):
                 #     not_found("btn_cadastro")
@@ -8376,56 +8377,621 @@ class Bot(DesktopBot) :
                 #     not_found("retornar")
                 # bot.click_relative(-83, 70)             
 
-                # # # Searching for element 'salvarConfiguracaodoMultiCTE '
-                # # if not bot.find("salvarConfiguracaodoMultiCTE", matching=0.97, waiting_time=10000):
-                # #     not_found("salvarConfiguracaodoMultiCTE")
-                # # bot.click()
-                # # self.wait(500)
-                # 
-                # # # Searching for element 'Excluir_LixeiraPqquenaLadoEsquerdow '
-                # # if not bot.find("Excluir_LixeiraPqquenaLadoEsquerdow", matching=0.97, waiting_time=10000):
-                # #     not_found("Excluir_LixeiraPqquenaLadoEsquerdow")
-                # # bot.click_relative(8, 32)
-                # # self.wait(700)
-                # # # Searching for element 'btn_Vsim'
-                # # if not bot.find("btn_Vsim", matching=0.97, waiting_time=10000):
-                # #     not_found("btn_Vsim")
-                # # bot.click()
-                # # self.wait(1000)
+                # # # # Searching for element 'salvarConfiguracaodoMultiCTE '
+                # # # if not bot.find("salvarConfiguracaodoMultiCTE", matching=0.97, waiting_time=10000):
+                # # #     not_found("salvarConfiguracaodoMultiCTE")
+                # # # bot.click()
+                # # # self.wait(500)
+                # # 
+                # # # # Searching for element 'Excluir_LixeiraPqquenaLadoEsquerdow '
+                # # # if not bot.find("Excluir_LixeiraPqquenaLadoEsquerdow", matching=0.97, waiting_time=10000):
+                # # #     not_found("Excluir_LixeiraPqquenaLadoEsquerdow")
+                # # # bot.click_relative(8, 32)
+                # # # self.wait(700)
+                # # # # Searching for element 'btn_Vsim'
+                # # # if not bot.find("btn_Vsim", matching=0.97, waiting_time=10000):
+                # # #     not_found("btn_Vsim")
+                # # # bot.click()
+                # # # self.wait(1000)
 
 
-                ###################################################
-                ######## Fim Cadastro Veiculos ####################
-                ###################################################
+                # ###################################################
+                # ######## Fim Cadastro Veiculos ####################
+                # ###################################################
 
-                ###############################################################
-                ########## Cadastros->Itens de Estoque->Cadastro de Unidade ###
-                ###############################################################
+                # ###############################################################
+                # ########## Cadastros->Itens de Estoque->Cadastro de Unidade ###
+                # ###############################################################
+
+                # if not bot.find("btn_cadastro", matching=0.97, waiting_time=10000):
+                #     not_found("btn_cadastro")
+                # bot.click()
+                # self.wait(1500)
+                # # Searching for element 'Cadastro_ItensDeEstoque '
+                # if not bot.find("Cadastro_ItensDeEstoque", matching=0.97, waiting_time=10000):
+                #     not_found("Cadastro_ItensDeEstoque")
+                # bot.click()
+                # # Searching for element 'Cadastro_ItensDeEstoque_Unidades '
+                # if not bot.find("Cadastro_ItensDeEstoque_Unidades", matching=0.97, waiting_time=10000):
+                #     not_found("Cadastro_ItensDeEstoque_Unidades")
+                # bot.click()
+                # # Searching for element 'Localizar '
+                # if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                #     not_found("Localizar")
+                # bot.click()
+                
+                # # Searching for element 'Incluir '
+                # if not bot.find("Incluir", matching=0.97, waiting_time=10000):
+                #     not_found("Incluir")
+                # bot.click()
+                # self.wait(1000)
+                # self.type_keys_with_interval(50, "qa12!")
+                # self.tab()
+                # self.type_keys_with_interval(50, "qa12!")
+                # # Searching for element 'SalvarV '
+                # if not bot.find("SalvarV", matching=0.97, waiting_time=10000):
+                #     not_found("SalvarV")
+                # bot.click()
+                
+                # # Searching for element 'Retornar '
+                # if not bot.find("Retornar", matching=0.97, waiting_time=10000):
+                #     not_found("Retornar")
+                # bot.click_relative(-79, 71)
+                # self.type_keys_with_interval(80, "qa12")
+                
+                # # Searching for element 'Localizar '
+                # if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                #     not_found("Localizar")
+                # bot.click()
+                # # Searching for element 'qa12!_Imagem '
+                # if not bot.find("qa12!_Imagem", matching=0.97, waiting_time=10000):
+                #     not_found("qa12!_Imagem")
+                # bot.click()
+                # # Searching for element 'editar_btn'
+                # if not bot.find("editar_btn", matching=0.97, waiting_time=10000):
+                #     not_found("editar_btn")
+                # bot.click()
+                # # Searching for element 'ExcluirEmpresa '
+                # if not bot.find("ExcluirEmpresa", matching=0.97, waiting_time=10000):
+                #     not_found("ExcluirEmpresa")
+                # bot.click()
+                
+                # # Searching for element 'sIMV '
+                # if not bot.find("sIMV", matching=0.97, waiting_time=10000):
+                #     not_found("sIMV")
+                # bot.click()
+                
+                # # Searching for element 'retornar '
+                # if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                #     not_found("retornar")
+                # bot.click_relative(-83, 70)
+                # self.wait(1000)
+                # # Searching for element 'Localizar '
+                # if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                #     not_found("Localizar")
+                # bot.click()
+                # self.wait(1000)
+                # # Searching for element 'retornar '
+                # if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                #     not_found("retornar")
+                # bot.click_relative(-83, 70)
+
+                # ############
+                # ##### Cadastro -> itens de estoque -> Itens
+                # ############
+
+                # if not bot.find("btn_cadastro", matching=0.97, waiting_time=10000):
+                #     not_found("btn_cadastro")
+                # bot.click()
+                # self.wait(1500)
+                # # Searching for element 'Cadastro_ItensDeEstoque '
+                # if not bot.find("Cadastro_ItensDeEstoque", matching=0.97, waiting_time=10000):
+                #     not_found("Cadastro_ItensDeEstoque")
+                # bot.click()
+                
+                # # Searching for element 'Cad_ItensDeEstoque_Itens '
+                # if not bot.find("Cad_ItensDeEstoque_Itens", matching=0.97, waiting_time=10000):
+                #     not_found("Cad_ItensDeEstoque_Itens")
+                # bot.click()
+                # # Searching for element 'Localizar '
+                # if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                #     not_found("Localizar")
+                # bot.click()
+                # # Searching for element 'Incluir '
+                # if not bot.find("Incluir", matching=0.97, waiting_time=10000):
+                #     not_found("Incluir")
+                # bot.click()
+                # self.wait(500)
+                # self.type_keys_with_interval(50, "Desc Item Cad Estoque qa12!")
+                # # Searching for element 'NCM_LP '
+                # if not bot.find("NCM_LP", matching=0.97, waiting_time=10000):
+                #     not_found("NCM_LP")
+                # bot.click_relative(137, 8)
+                # self.type_keys_with_interval(50, "1")
+                # # Searching for element 'btn_localizar'
+                # if not bot.find("btn_localizar", matching=0.97, waiting_time=10000):
+                #     not_found("btn_ localizar")
+                # bot.click()
+                # # Searching for element 'btn_selecionar'
+                # if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
+                #     not_found("btn_selecionar")
+                # bot.click()
+                # self.tab()
+                # self.tab()
+                # self.type_keys_with_interval(50, "1")
+                # self.tab()
+                # self.type_keys_with_interval(50, "12")
+                # self.wait(500)
+                # # Searching for element 'Unidade_LP '
+                # if not bot.find("Unidade_LP", matching=0.97, waiting_time=10000):
+                #     not_found("Unidade_LP")
+                # bot.click_relative(90, 10)
+                # self.type_keys_with_interval(50, "1")
+                # # Searching for element 'btn_localizar'
+                # if not bot.find("btn_localizar", matching=0.97, waiting_time=10000):
+                #     not_found("btn_ localizar")
+                # bot.click()
+                # # Searching for element 'btn_selecionar'
+                # if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
+                #     not_found("btn_selecionar")
+                # bot.click()
+                # self.tab()
+                # self.tab()
+                # self.type_keys_with_interval(50, "12")
+                # self.tab()
+                # x = 0
+                # while x < 7:
+                #     self.type_down()
+                #     x= x + 1
+                # # Searching for element 'GrupoFiscal_LP '
+                # if not bot.find("GrupoFiscal_LP", matching=0.97, waiting_time=10000):
+                #     not_found("GrupoFiscal_LP")
+                # bot.click_relative(113, 13)
+                # # Searching for element 'btn_localizar'
+                # if not bot.find("btn_localizar", matching=0.97, waiting_time=10000):
+                #     not_found("btn_ localizar")
+                # bot.click()
+                # # Searching for element 'btn_selecionar'
+                # if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
+                #     not_found("btn_selecionar")
+                # bot.click()
+                # self.tab()
+                # self.tab()
+                # self.type_keys_with_interval(50, "12")
+                # self.tab()
+                # self.type_keys_with_interval(50, "12")
+                # self.tab()
+                # x = 0
+                # while x < 7:
+                #     self.type_down()
+                #     x= x + 1
+                # self.tab()
+                # self.type_keys_with_interval(50, "12")
+                # self.tab()
+                # self.space()
+                # self.space()
+                # self.tab()
+                # x = 0
+                # while x < 7:
+                #     self.type_down()
+                #     x= x + 1
+                # # Searching for element 'contaContabil_LP '
+                # if not bot.find("contaContabil_LP", matching=0.97, waiting_time=10000):
+                #     not_found("contaContabil_LP")
+                # bot.click_relative(136, 12)
+                # # Searching for element 'btn_localizar'
+                # if not bot.find("btn_localizar", matching=0.97, waiting_time=10000):
+                #     not_found("btn_ localizar")
+                # bot.click()
+                # # Searching for element 'btn_selecionar'
+                # if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
+                #     not_found("btn_selecionar")
+                # bot.click()
+                # self.backspace()
+                # # Searching for element 'SalvarV '
+                # if not bot.find("SalvarV", matching=0.97, waiting_time=10000):
+                #     not_found("SalvarV")
+                # bot.click()
+                # self.wait(500)
+                # self.enter()
+
+                # # Searching for element 'incluirSmall '
+                # if not bot.find("incluirSmall", matching=0.97, waiting_time=10000):
+                #     not_found("incluirSmall")
+                # bot.click()
+                # # Searching for element 'refAdFornecedor_LP '
+                # if not bot.find("refAdFornecedor_LP", matching=0.97, waiting_time=10000):
+                #     not_found("refAdFornecedor_LP")
+                # bot.click_relative(58, 56)
+                # # Searching for element 'btn_localizar'
+                # if not bot.find("btn_localizar", matching=0.97, waiting_time=10000):
+                #     not_found("btn_ localizar")
+                # bot.click()
+                # # Searching for element 'btn_selecionar'
+                # if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
+                #     not_found("btn_selecionar")
+                # bot.click()
+                # self.tab()
+                # self.tab()
+                # self.type_keys_with_interval(50, "123")
+                # self.tab()
+                # self.type_keys_with_interval(50, "123")
+                # # Searching for element 'refAd_Unidade_LP '
+                # if not bot.find("refAd_Unidade_LP", matching=0.97, waiting_time=10000):
+                #     not_found("refAd_Unidade_LP")
+                # bot.click_relative(58, 91)
+                # # Searching for element 'btn_localizar'
+                # if not bot.find("btn_localizar", matching=0.97, waiting_time=10000):
+                #     not_found("btn_ localizar")
+                # bot.click()
+                # # Searching for element 'btn_selecionar'
+                # if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
+                #     not_found("btn_selecionar")
+                # bot.click()
+                # self.tab()
+                # self.tab()
+                # self.type_keys_with_interval(50, "123")
+                # # Searching for element 'Gravar '
+                # if not bot.find("Gravar", matching=0.97, waiting_time=10000):
+                #     not_found("Gravar")
+                # bot.click()
+                # # Searching for element 'click_X '
+                # if not bot.find("click_X", matching=0.97, waiting_time=10000):
+                #     not_found("click_X")
+                # bot.click()
+                # self.enter()
+                # self.wait(5500)
+                # # Searching for element 'Excluir_LixeiraPqquenaLadoEsquerdow '
+                # if not bot.find("Excluir_LixeiraPqquenaLadoEsquerdow", matching=0.97, waiting_time=10000):
+                #     not_found("Excluir_LixeiraPqquenaLadoEsquerdow")
+                # bot.click_relative(8, 32)
+                # self.wait(700)
+                # self.enter()
+                # # Searching for element 'ExcluirEmpresa '
+                # if not bot.find("ExcluirEmpresa", matching=0.97, waiting_time=10000):
+                #     not_found("ExcluirEmpresa")
+                # bot.click()
+                
+                # # Searching for element 'sIMV '
+                # if not bot.find("sIMV", matching=0.97, waiting_time=10000):
+                #     not_found("sIMV")
+                # bot.click()
+                # # Searching for element 'retornar '
+                # if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                #     not_found("retornar")
+                # bot.click_relative(-83, 70)
+                # self.wait(1000)
+                # # Searching for element 'Localizar '
+                # if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                #     not_found("Localizar")
+                # bot.click()
+                # self.wait(1000)
+                # # Searching for element 'retornar '
+                # if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                #     not_found("retornar")
+                # bot.click_relative(-83, 70)
+
+                # ###############################################################
+                # ########## FIM Cadastros->Itens de Estoque->Cadastro de Unidade ###
+                # ###############################################################
+
+                # ###############################################################
+                # ########## Cadastros-> Pneus -> Marca ###
+                # ###############################################################
+                # if not bot.find("btn_cadastro", matching=0.97, waiting_time=10000):
+                #     not_found("btn_cadastro")
+                # bot.click()
+                # self.wait(1500)
+                # # Searching for element 'Cad_Pneus '
+                # if not bot.find("Cad_Pneus", matching=0.97, waiting_time=10000):
+                #     not_found("Cad_Pneus")
+                # bot.click()
+                # self.wait(700)
+                # # Searching for element 'Cad_Pneus_Marcas '
+                # if not bot.find("Cad_Pneus_Marcas", matching=0.97, waiting_time=10000):
+                #     not_found("Cad_Pneus_Marcas")
+                # bot.click()
+                # # Searching for element 'Localizar '
+                # if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                #     not_found("Localizar")
+                # bot.click()
+                # # Searching for element 'Incluir '
+                # if not bot.find("Incluir", matching=0.97, waiting_time=10000):
+                #     not_found("Incluir")
+                # bot.click()
+                # self.wait(500)
+                # self.type_keys_with_interval(50, "qa12!")
+                # # Searching for element 'SalvarV '
+                # if not bot.find("SalvarV", matching=0.97, waiting_time=10000):
+                #     not_found("SalvarV")
+                # bot.click()
+                
+                # # Searching for element 'Retornar '
+                # if not bot.find("Retornar", matching=0.97, waiting_time=10000):
+                #     not_found("Retornar")
+                # bot.click_relative(-79, 71)
+                # self.type_keys_with_interval(80, "qa12")
+                
+                # # Searching for element 'Localizar '
+                # if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                #     not_found("Localizar")
+                # bot.click()
+                # # Searching for element 'qa12!_Imagem '
+                # if not bot.find("qa12!_Imagem", matching=0.97, waiting_time=10000):
+                #     not_found("qa12!_Imagem")
+                # bot.click()
+                # # Searching for element 'editar_btn'
+                # if not bot.find("editar_btn", matching=0.97, waiting_time=10000):
+                #     not_found("editar_btn")
+                # bot.click()
+                # # Searching for element 'ExcluirEmpresa '
+                # if not bot.find("ExcluirEmpresa", matching=0.97, waiting_time=10000):
+                #     not_found("ExcluirEmpresa")
+                # bot.click()
+                
+                # # Searching for element 'sIMV '
+                # if not bot.find("sIMV", matching=0.97, waiting_time=10000):
+                #     not_found("sIMV")
+                # bot.click()
+                
+                # # Searching for element 'retornar '
+                # if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                #     not_found("retornar")
+                # bot.click_relative(-83, 70)
+                # self.wait(1000)
+                # # Searching for element 'Localizar '
+                # if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                #     not_found("Localizar")
+                # bot.click()
+                # self.wait(1000)
+                # # Searching for element 'retornar '
+                # if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                #     not_found("retornar")
+                # bot.click_relative(-83, 70)
+
+                # ##### Cadastro _Pneus -> Modelos
+
+                # if not bot.find("btn_cadastro", matching=0.97, waiting_time=10000):
+                #     not_found("btn_cadastro")
+                # bot.click()
+                # self.wait(1500)
+                # # Searching for element 'Cad_Pneus '
+                # if not bot.find("Cad_Pneus", matching=0.97, waiting_time=10000):
+                #     not_found("Cad_Pneus")
+                # bot.click()
+                # self.wait(700)
+                # # Searching for element 'Cad_Pneus_Modelos '
+                # if not bot.find("Cad_Pneus_Modelos", matching=0.97, waiting_time=10000):
+                #     not_found("Cad_Pneus_Modelos")
+                # bot.click()
+                # # Searching for element 'Localizar '
+                # if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                #     not_found("Localizar")
+                # bot.click()
+                # # Searching for element 'Incluir '
+                # if not bot.find("Incluir", matching=0.97, waiting_time=10000):
+                #     not_found("Incluir")
+                # bot.click()
+                # self.wait(500)
+                # self.type_keys_with_interval(50, "qa12!")
+                # # Searching for element 'SalvarV '
+                # if not bot.find("SalvarV", matching=0.97, waiting_time=10000):
+                #     not_found("SalvarV")
+                # bot.click()
+                
+                # # Searching for element 'Retornar '
+                # if not bot.find("Retornar", matching=0.97, waiting_time=10000):
+                #     not_found("Retornar")
+                # bot.click_relative(-79, 71)
+                # self.type_keys_with_interval(80, "qa12")
+                
+                # # Searching for element 'Localizar '
+                # if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                #     not_found("Localizar")
+                # bot.click()
+                # # Searching for element 'qa12!_Imagem '
+                # if not bot.find("qa12!_Imagem", matching=0.97, waiting_time=10000):
+                #     not_found("qa12!_Imagem")
+                # bot.click()
+                # # Searching for element 'editar_btn'
+                # if not bot.find("editar_btn", matching=0.97, waiting_time=10000):
+                #     not_found("editar_btn")
+                # bot.click()
+                # # Searching for element 'ExcluirEmpresa '
+                # if not bot.find("ExcluirEmpresa", matching=0.97, waiting_time=10000):
+                #     not_found("ExcluirEmpresa")
+                # bot.click()
+                
+                # # Searching for element 'sIMV '
+                # if not bot.find("sIMV", matching=0.97, waiting_time=10000):
+                #     not_found("sIMV")
+                # bot.click()
+                
+                # # Searching for element 'retornar '
+                # if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                #     not_found("retornar")
+                # bot.click_relative(-83, 70)
+                # self.wait(1000)
+                # # Searching for element 'Localizar '
+                # if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                #     not_found("Localizar")
+                # bot.click()
+                # self.wait(1000)
+                # # Searching for element 'retornar '
+                # if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                #     not_found("retornar")
+                # bot.click_relative(-83, 70)
+                
+                # ####### Cadastro -> Pneus -> Tipo
+
+                # if not bot.find("btn_cadastro", matching=0.97, waiting_time=10000):
+                #     not_found("btn_cadastro")
+                # bot.click()
+                # self.wait(1500)
+                # # Searching for element 'Cad_Pneus '
+                # if not bot.find("Cad_Pneus", matching=0.97, waiting_time=10000):
+                #     not_found("Cad_Pneus")
+                # bot.click()
+                # self.wait(700)
+                # # Searching for element 'Cad_Pneus_Tipo '
+                # if not bot.find("Cad_Pneus_Tipo", matching=0.97, waiting_time=10000):
+                #     not_found("Cad_Pneus_Tipo")
+                # bot.click()
+                # # Searching for element 'Localizar '
+                # if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                #     not_found("Localizar")
+                # bot.click()
+                # # Searching for element 'Incluir '
+                # if not bot.find("Incluir", matching=0.97, waiting_time=10000):
+                #     not_found("Incluir")
+                # bot.click()
+                # self.wait(500)
+                # self.type_keys_with_interval(50, "qa12!")
+                # # Searching for element 'SalvarV '
+                # if not bot.find("SalvarV", matching=0.97, waiting_time=10000):
+                #     not_found("SalvarV")
+                # bot.click()
+                
+                # # Searching for element 'Retornar '
+                # if not bot.find("Retornar", matching=0.97, waiting_time=10000):
+                #     not_found("Retornar")
+                # bot.click_relative(-79, 71)
+                # self.type_keys_with_interval(80, "qa12")
+                
+                # # Searching for element 'Localizar '
+                # if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                #     not_found("Localizar")
+                # bot.click()
+                # # Searching for element 'qa12!_Imagem '
+                # if not bot.find("qa12!_Imagem", matching=0.97, waiting_time=10000):
+                #     not_found("qa12!_Imagem")
+                # bot.click()
+                # # Searching for element 'editar_btn'
+                # if not bot.find("editar_btn", matching=0.97, waiting_time=10000):
+                #     not_found("editar_btn")
+                # bot.click()
+                # # Searching for element 'ExcluirEmpresa '
+                # if not bot.find("ExcluirEmpresa", matching=0.97, waiting_time=10000):
+                #     not_found("ExcluirEmpresa")
+                # bot.click()
+                
+                # # Searching for element 'sIMV '
+                # if not bot.find("sIMV", matching=0.97, waiting_time=10000):
+                #     not_found("sIMV")
+                # bot.click()
+                
+                # # Searching for element 'retornar '
+                # if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                #     not_found("retornar")
+                # bot.click_relative(-83, 70)
+                # self.wait(1000)
+                # # Searching for element 'Localizar '
+                # if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                #     not_found("Localizar")
+                # bot.click()
+                # self.wait(1000)
+                # # Searching for element 'retornar '
+                # if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                #     not_found("retornar")
+                # bot.click_relative(-83, 70)
+
+                # ####### Cadastro -> Pneus -> Tipo de Borracha 
+
+                # if not bot.find("btn_cadastro", matching=0.97, waiting_time=10000):
+                #     not_found("btn_cadastro")
+                # bot.click()
+                # self.wait(1500)
+                # # Searching for element 'Cad_Pneus '
+                # if not bot.find("Cad_Pneus", matching=0.97, waiting_time=10000):
+                #     not_found("Cad_Pneus")
+                # bot.click()
+                # self.wait(700)
+                # # Searching for element 'Cad_Pneus_TipoDeBorracha '
+                # if not bot.find("Cad_Pneus_TipoDeBorracha", matching=0.97, waiting_time=10000):
+                #     not_found("Cad_Pneus_TipoDeBorracha")
+                # bot.click()
+                # # Searching for element 'Localizar '
+                # if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                #     not_found("Localizar")
+                # bot.click()
+                # # Searching for element 'Incluir '
+                # if not bot.find("Incluir", matching=0.97, waiting_time=10000):
+                #     not_found("Incluir")
+                # bot.click()
+                # self.wait(500)
+                # self.type_keys_with_interval(50, "qa12!")
+                # # Searching for element 'SalvarV '
+                # if not bot.find("SalvarV", matching=0.97, waiting_time=10000):
+                #     not_found("SalvarV")
+                # bot.click()
+                
+                # # Searching for element 'Retornar '
+                # if not bot.find("Retornar", matching=0.97, waiting_time=10000):
+                #     not_found("Retornar")
+                # bot.click_relative(-79, 71)
+                # self.type_keys_with_interval(80, "qa12")
+                
+                # # Searching for element 'Localizar '
+                # if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                #     not_found("Localizar")
+                # bot.click()
+                # # Searching for element 'qa12!_Imagem '
+                # if not bot.find("qa12!_Imagem", matching=0.97, waiting_time=10000):
+                #     not_found("qa12!_Imagem")
+                # bot.click()
+                # # Searching for element 'editar_btn'
+                # if not bot.find("editar_btn", matching=0.97, waiting_time=10000):
+                #     not_found("editar_btn")
+                # bot.click()
+                # # Searching for element 'ExcluirEmpresa '
+                # if not bot.find("ExcluirEmpresa", matching=0.97, waiting_time=10000):
+                #     not_found("ExcluirEmpresa")
+                # bot.click()
+                
+                # # Searching for element 'sIMV '
+                # if not bot.find("sIMV", matching=0.97, waiting_time=10000):
+                #     not_found("sIMV")
+                # bot.click()
+                
+                # # Searching for element 'retornar '
+                # if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                #     not_found("retornar")
+                # bot.click_relative(-83, 70)
+                # self.wait(1000)
+                # # Searching for element 'Localizar '
+                # if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                #     not_found("Localizar")
+                # bot.click()
+                # self.wait(1000)
+                # # Searching for element 'retornar '
+                # if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                #     not_found("retornar")
+                # bot.click_relative(-83, 70)
+
+                ####### Cadastro -> Pneus -> Motivo de Sucateamento
 
                 if not bot.find("btn_cadastro", matching=0.97, waiting_time=10000):
                     not_found("btn_cadastro")
                 bot.click()
                 self.wait(1500)
-                # Searching for element 'Cadastro_ItensDeEstoque '
-                if not bot.find("Cadastro_ItensDeEstoque", matching=0.97, waiting_time=10000):
-                    not_found("Cadastro_ItensDeEstoque")
+                # Searching for element 'Cad_Pneus '
+                if not bot.find("Cad_Pneus", matching=0.97, waiting_time=10000):
+                    not_found("Cad_Pneus")
                 bot.click()
-                # Searching for element 'Cadastro_ItensDeEstoque_Unidades '
-                if not bot.find("Cadastro_ItensDeEstoque_Unidades", matching=0.97, waiting_time=10000):
-                    not_found("Cadastro_ItensDeEstoque_Unidades")
+                self.wait(700)
+                # Searching for element 'Cad_Pneus_MotivosDeSucateamento '
+                if not bot.find("Cad_Pneus_MotivosDeSucateamento", matching=0.97, waiting_time=10000):
+                    not_found("Cad_Pneus_MotivosDeSucateamento")
                 bot.click()
                 # Searching for element 'Localizar '
                 if not bot.find("Localizar", matching=0.97, waiting_time=10000):
                     not_found("Localizar")
                 bot.click()
-                
                 # Searching for element 'Incluir '
                 if not bot.find("Incluir", matching=0.97, waiting_time=10000):
                     not_found("Incluir")
                 bot.click()
-                self.wait(1000)
-                self.type_keys_with_interval(50, "qa12!")
-                self.tab()
+                self.wait(500)
                 self.type_keys_with_interval(50, "qa12!")
                 # Searching for element 'SalvarV '
                 if not bot.find("SalvarV", matching=0.97, waiting_time=10000):
@@ -8475,22 +9041,19 @@ class Bot(DesktopBot) :
                     not_found("retornar")
                 bot.click_relative(-83, 70)
 
-                ############
-                ##### Cadastro -> itens de estoque -> Itens
-                ############
-
+                ####### Cadastro -> Pneu -> Pneus 
                 if not bot.find("btn_cadastro", matching=0.97, waiting_time=10000):
                     not_found("btn_cadastro")
                 bot.click()
                 self.wait(1500)
-                # Searching for element 'Cadastro_ItensDeEstoque '
-                if not bot.find("Cadastro_ItensDeEstoque", matching=0.97, waiting_time=10000):
-                    not_found("Cadastro_ItensDeEstoque")
+                # Searching for element 'Cad_Pneus '
+                if not bot.find("Cad_Pneus", matching=0.97, waiting_time=10000):
+                    not_found("Cad_Pneus")
                 bot.click()
-                
-                # Searching for element 'Cad_ItensDeEstoque_Itens '
-                if not bot.find("Cad_ItensDeEstoque_Itens", matching=0.97, waiting_time=10000):
-                    not_found("Cad_ItensDeEstoque_Itens")
+                self.wait(700)
+                # Searching for element 'Cad_Pneus '
+                if not bot.find("Cad_Pneus", matching=0.97, waiting_time=10000):
+                    not_found("Cad_Pneus")
                 bot.click()
                 # Searching for element 'Localizar '
                 if not bot.find("Localizar", matching=0.97, waiting_time=10000):
@@ -8500,84 +9063,40 @@ class Bot(DesktopBot) :
                 if not bot.find("Incluir", matching=0.97, waiting_time=10000):
                     not_found("Incluir")
                 bot.click()
-                self.wait(500)
-                self.type_keys_with_interval(50, "Desc Item Cad Estoque qa12!")
-                # Searching for element 'NCM_LP '
-                if not bot.find("NCM_LP", matching=0.97, waiting_time=10000):
-                    not_found("NCM_LP")
-                bot.click_relative(137, 8)
-                self.type_keys_with_interval(50, "1")
-                # Searching for element 'btn_localizar'
-                if not bot.find("btn_localizar", matching=0.97, waiting_time=10000):
-                    not_found("btn_ localizar")
+                # Searching for element 'btn_nao'
+                if not bot.find("btn_nao", matching=0.97, waiting_time=10000):
+                    not_found("btn_nao")
                 bot.click()
-                # Searching for element 'btn_selecionar'
-                if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
-                    not_found("btn_selecionar")
-                bot.click()
+                self.type_keys_with_interval(50, "qa12!")  
                 self.tab()
+                self.type_keys_with_interval(50, "qa12!") 
                 self.tab()
-                self.type_keys_with_interval(50, "1")
+                self.type_keys_with_interval(50, "123")      
                 self.tab()
-                self.type_keys_with_interval(50, "12")
-                self.wait(500)
-                # Searching for element 'Unidade_LP '
-                if not bot.find("Unidade_LP", matching=0.97, waiting_time=10000):
-                    not_found("Unidade_LP")
-                bot.click_relative(90, 10)
-                self.type_keys_with_interval(50, "1")
-                # Searching for element 'btn_localizar'
-                if not bot.find("btn_localizar", matching=0.97, waiting_time=10000):
-                    not_found("btn_ localizar")
-                bot.click()
-                # Searching for element 'btn_selecionar'
-                if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
-                    not_found("btn_selecionar")
-                bot.click()
+                self.type_down()
+                self.type_down()
+                self.type_down()
                 self.tab()
+                self.type_keys_with_interval(50, "qa12!")
                 self.tab()
-                self.type_keys_with_interval(50, "12")
+                self.type_keys_with_interval(50, "qa12!")
                 self.tab()
-                x = 0
-                while x < 7:
-                    self.type_down()
-                    x= x + 1
-                # Searching for element 'GrupoFiscal_LP '
-                if not bot.find("GrupoFiscal_LP", matching=0.97, waiting_time=10000):
-                    not_found("GrupoFiscal_LP")
-                bot.click_relative(113, 13)
-                # Searching for element 'btn_localizar'
-                if not bot.find("btn_localizar", matching=0.97, waiting_time=10000):
-                    not_found("btn_ localizar")
-                bot.click()
-                # Searching for element 'btn_selecionar'
-                if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
-                    not_found("btn_selecionar")
-                bot.click()
+                self.type_down()
+                self.type_down()
+                self.type_down()
                 self.tab()
+                self.type_keys_with_interval(50, "qa12!") 
                 self.tab()
-                self.type_keys_with_interval(50, "12")
-                self.tab()
-                self.type_keys_with_interval(50, "12")
-                self.tab()
-                x = 0
-                while x < 7:
-                    self.type_down()
-                    x= x + 1
-                self.tab()
-                self.type_keys_with_interval(50, "12")
+                self.type_keys_with_interval(50, "123")
                 self.tab()
                 self.space()
+                self.wait(500)
                 self.space()
-                self.tab()
-                x = 0
-                while x < 7:
-                    self.type_down()
-                    x= x + 1
-                # Searching for element 'contaContabil_LP '
-                if not bot.find("contaContabil_LP", matching=0.97, waiting_time=10000):
-                    not_found("contaContabil_LP")
-                bot.click_relative(136, 12)
+                self.wait(500)
+                # Searching for element 'selelciona_LP_Fornecedor '
+                if not bot.find("selelciona_LP_Fornecedor", matching=0.97, waiting_time=10000):
+                    not_found("selelciona_LP_Fornecedor")
+                bot.click_relative(135, 23)
                 # Searching for element 'btn_localizar'
                 if not bot.find("btn_localizar", matching=0.97, waiting_time=10000):
                     not_found("btn_ localizar")
@@ -8586,66 +9105,83 @@ class Bot(DesktopBot) :
                 if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
                     not_found("btn_selecionar")
                 bot.click()
-                self.backspace()
+                self.tab()
+                self.tab()
+                self.tab()
+                self.type_keys_with_interval(50, "123")
+                self.tab()
+                self.type_keys_with_interval(50, "123")
+                # Searching for element 'sl_LUPA_MARCAaaa '
+                if not bot.find("sl_LUPA_MARCAaaa", matching=0.97, waiting_time=10000):
+                    not_found("sl_LUPA_MARCAaaa")
+                bot.click_relative(86, 7)
+                # Searching for element 'btn_localizar'
+                if not bot.find("btn_localizar", matching=0.97, waiting_time=10000):
+                    not_found("btn_ localizar")
+                bot.click()
+                # Searching for element 'btn_selecionar'
+                if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
+                    not_found("btn_selecionar")
+                bot.click()
+                # Searching for element 'sl_LUPA_MODELOooo '
+                if not bot.find("sl_LUPA_MODELOooo", matching=0.97, waiting_time=10000):
+                    not_found("sl_LUPA_MODELOooo")
+                bot.click_relative(89, 5)
+                # Searching for element 'btn_localizar'
+                if not bot.find("btn_localizar", matching=0.97, waiting_time=10000):
+                    not_found("btn_ localizar")
+                bot.click()
+                # Searching for element 'btn_selecionar'
+                if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
+                    not_found("btn_selecionar")
+                bot.click()
+                # Searching for element 'sl_LUPA_TIPOoooo '
+                if not bot.find("sl_LUPA_TIPOoooo", matching=0.97, waiting_time=10000):
+                    not_found("sl_LUPA_TIPOoooo")
+                bot.click_relative(75, 8)
+                # Searching for element 'btn_localizar'
+                if not bot.find("btn_localizar", matching=0.97, waiting_time=10000):
+                    not_found("btn_ localizar")
+                bot.click()
+                # Searching for element 'btn_selecionar'
+                if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
+                    not_found("btn_selecionar")
+                bot.click()
+                # Searching for element 'sl_LUPA_BORRACHAaaa '
+                if not bot.find("sl_LUPA_BORRACHAaaa", matching=0.97, waiting_time=10000):
+                    not_found("sl_LUPA_BORRACHAaaa")
+                bot.click_relative(97, 9)
+                # Searching for element 'btn_localizar'
+                if not bot.find("btn_localizar", matching=0.97, waiting_time=10000):
+                    not_found("btn_ localizar")
+                bot.click()
+                # Searching for element 'btn_selecionar'
+                if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
+                    not_found("btn_selecionar")
+                bot.click()
                 # Searching for element 'SalvarV '
                 if not bot.find("SalvarV", matching=0.97, waiting_time=10000):
                     not_found("SalvarV")
                 bot.click()
-                self.wait(500)
-                self.enter()
-
-                # Searching for element 'incluirSmall '
-                if not bot.find("incluirSmall", matching=0.97, waiting_time=10000):
-                    not_found("incluirSmall")
+                
+                # Searching for element 'Retornar '
+                if not bot.find("Retornar", matching=0.97, waiting_time=10000):
+                    not_found("Retornar")
+                bot.click_relative(-79, 71)
+                self.type_keys_with_interval(80, "qa12")
+                
+                # Searching for element 'Localizar '
+                if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                    not_found("Localizar")
                 bot.click()
-                # Searching for element 'refAdFornecedor_LP '
-                if not bot.find("refAdFornecedor_LP", matching=0.97, waiting_time=10000):
-                    not_found("refAdFornecedor_LP")
-                bot.click_relative(58, 56)
-                # Searching for element 'btn_localizar'
-                if not bot.find("btn_localizar", matching=0.97, waiting_time=10000):
-                    not_found("btn_ localizar")
+                # Searching for element 'qa12!_Imagem '
+                if not bot.find("qa12!_Imagem", matching=0.97, waiting_time=10000):
+                    not_found("qa12!_Imagem")
                 bot.click()
-                # Searching for element 'btn_selecionar'
-                if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
-                    not_found("btn_selecionar")
+                # Searching for element 'editar_btn'
+                if not bot.find("editar_btn", matching=0.97, waiting_time=10000):
+                    not_found("editar_btn")
                 bot.click()
-                self.tab()
-                self.tab()
-                self.type_keys_with_interval(50, "123")
-                self.tab()
-                self.type_keys_with_interval(50, "123")
-                # Searching for element 'refAd_Unidade_LP '
-                if not bot.find("refAd_Unidade_LP", matching=0.97, waiting_time=10000):
-                    not_found("refAd_Unidade_LP")
-                bot.click_relative(58, 91)
-                # Searching for element 'btn_localizar'
-                if not bot.find("btn_localizar", matching=0.97, waiting_time=10000):
-                    not_found("btn_ localizar")
-                bot.click()
-                # Searching for element 'btn_selecionar'
-                if not bot.find("btn_selecionar", matching=0.97, waiting_time=10000):
-                    not_found("btn_selecionar")
-                bot.click()
-                self.tab()
-                self.tab()
-                self.type_keys_with_interval(50, "123")
-                # Searching for element 'Gravar '
-                if not bot.find("Gravar", matching=0.97, waiting_time=10000):
-                    not_found("Gravar")
-                bot.click()
-                # Searching for element 'click_X '
-                if not bot.find("click_X", matching=0.97, waiting_time=10000):
-                    not_found("click_X")
-                bot.click()
-                self.enter()
-                self.wait(5500)
-                # Searching for element 'Excluir_LixeiraPqquenaLadoEsquerdow '
-                if not bot.find("Excluir_LixeiraPqquenaLadoEsquerdow", matching=0.97, waiting_time=10000):
-                    not_found("Excluir_LixeiraPqquenaLadoEsquerdow")
-                bot.click_relative(8, 32)
-                self.wait(700)
-                self.enter()
                 # Searching for element 'ExcluirEmpresa '
                 if not bot.find("ExcluirEmpresa", matching=0.97, waiting_time=10000):
                     not_found("ExcluirEmpresa")
@@ -8655,6 +9191,7 @@ class Bot(DesktopBot) :
                 if not bot.find("sIMV", matching=0.97, waiting_time=10000):
                     not_found("sIMV")
                 bot.click()
+                
                 # Searching for element 'retornar '
                 if not bot.find("retornar", matching=0.97, waiting_time=10000):
                     not_found("retornar")
@@ -8669,8 +9206,13 @@ class Bot(DesktopBot) :
                 if not bot.find("retornar", matching=0.97, waiting_time=10000):
                     not_found("retornar")
                 bot.click_relative(-83, 70)
+
+                # ###############################################################
+                # ########## FIM -> Cadastros-> Pneus ###
+                # ###############################################################
+
                 
-                            
+
 
 
 def not_found(label) :
