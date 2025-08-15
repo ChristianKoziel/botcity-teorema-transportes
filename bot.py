@@ -9585,6 +9585,20 @@ class Bot(DesktopBot) :
                 if not bot.find("TabelaImpostos_menu_DSRExposicaoaAgentesNocivos", matching=0.97, waiting_time=10000):
                     not_found("TabelaImpostos_menu_DSRExposicaoaAgentesNocivos")
                 bot.click()
+                                
+                # Searching for element 'Retornar '
+                if not bot.find("Retornar", matching=0.97, waiting_time=10000):
+                    not_found("Retornar")
+                bot.click_relative(-79, 71)
+                # Searching for element 'Localizar '
+                if not bot.find("Localizar", matching=0.97, waiting_time=10000):
+                    not_found("Localizar")
+                bot.click()
+                self.wait(1000)
+                # Searching for element 'retornar '
+                if not bot.find("retornar", matching=0.97, waiting_time=10000):
+                    not_found("retornar")
+                bot.click_relative(-83, 70)
 
                 ##### Continuar automação dessa tela dessa aba apos finalizar chamado 
 
