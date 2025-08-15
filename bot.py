@@ -10048,7 +10048,10 @@ class Bot(DesktopBot) :
                 ################## INICIO MOVIMENTOS ####
                 #########################################
 
-                #####
+                # Searching for element 'CAD_Movimentos_Menu '
+                if not bot.find("CAD_Movimentos_Menu", matching=0.97, waiting_time=10000):
+                    not_found("CAD_Movimentos_Menu")
+                bot.click()           
 
 
 
