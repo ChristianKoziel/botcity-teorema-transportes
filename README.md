@@ -41,7 +41,7 @@ Antes de rodar a automação, siga os passos abaixo:
 
 3. **Rodando a Automacao**
    - Abra o sistema **Gestão de Transportes** e deixe-o na tela inicial.
-   - Agora a automação pode ser executada sem erros até a tela **Parâmetros Fiscais/Regionalização**.
+   - A automação agora realiza todos os cadastros completos de forma automática.
 
 ## Como Executar
 1. Clone este repositório:
